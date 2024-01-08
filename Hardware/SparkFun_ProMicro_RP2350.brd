@@ -7298,15 +7298,15 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="PROD_ID" value="RES-15238" x="-21.336" y="30.861" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 <attribute name="VALUE" x="12.392" y="24.511" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
-<element name="C20" library="SparkFun-Capacitors" package="0402-TIGHT" value="2.2uF" x="12.7" y="17.907" smashed="yes" rot="R270">
+<element name="C20" library="SparkFun-Capacitors" package="0402-TIGHT" value="10uF" x="12.7" y="17.907" smashed="yes" rot="R270">
 <attribute name="NAME" x="13.262" y="17.907" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
-<attribute name="PROD_ID" value="CAP-14232" x="-29.21" y="20.447" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
-<attribute name="VALUE" x="12.138" y="17.907" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
+<attribute name="PROD_ID" value="CAP-14848" x="-29.21" y="20.447" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
+<attribute name="VALUE" value="10uF" x="12.138" y="17.907" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
-<element name="C21" library="SparkFun-Capacitors" package="0402-TIGHT" value="2.2uF" x="10.922" y="16.002" smashed="yes">
+<element name="C21" library="SparkFun-Capacitors" package="0402-TIGHT" value="10uF" x="10.922" y="16.002" smashed="yes">
 <attribute name="NAME" x="10.922" y="16.564" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
-<attribute name="PROD_ID" value="CAP-14232" x="4.572" y="-29.718" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
-<attribute name="VALUE" x="10.922" y="15.44" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
+<attribute name="PROD_ID" value="CAP-14848" x="4.572" y="-29.718" size="1.778" layer="27" font="vector" ratio="15" display="off"/>
+<attribute name="VALUE" value="10uF" x="10.922" y="15.44" size="0.6096" layer="27" font="vector" ratio="20" align="top-center"/>
 </element>
 <element name="R14" library="SparkFun-Resistors" package="0402-TIGHT" value="10Ω" x="13.716" y="16.383" smashed="yes">
 <attribute name="NAME" x="13.716" y="16.945" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>

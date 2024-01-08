@@ -32464,8 +32464,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="SUPPLY24" library="RP2040" deviceset="1.1V" device=""/>
 <part name="SUPPLY25" library="RP2040" deviceset="1.1V" device=""/>
 <part name="SUPPLY26" library="RP2040" deviceset="1.1V" device=""/>
-<part name="C20" library="SparkFun-Capacitors" deviceset="2.2UF" device="-0402_TIGHT-10V-10%-X5R" value="2.2uF"/>
-<part name="C21" library="SparkFun-Capacitors" deviceset="2.2UF" device="-0402_TIGHT-10V-10%-X5R" value="2.2uF"/>
+<part name="C20" library="SparkFun-Capacitors" deviceset="10UF" device="-0402T-6.3V-20%" value="10uF"/>
+<part name="C21" library="SparkFun-Capacitors" deviceset="10UF" device="-0402T-6.3V-20%" value="10uF"/>
 <part name="SUPPLY27" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="SUPPLY28" library="RP2040" deviceset="1.1V" device=""/>
 <part name="GND26" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
