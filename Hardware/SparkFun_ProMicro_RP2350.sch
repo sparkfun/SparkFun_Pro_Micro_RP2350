@@ -32494,7 +32494,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="TP2" library="SparkFun-Connectors" deviceset="TEST-POINT" device="3X5" value="TEST-POINT3X5"/>
 <part name="U3" library="SparkFun-LED" deviceset="WS2812-2020" device=""/>
 <part name="GND4" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="FRAME2" library="SparkFun-Aesthetics" deviceset="FRAME-LEDGER" device=""/>
+<part name="FRAME2" library="SparkFun-Aesthetics" deviceset="FRAME-LEDGER" device="">
+<attribute name="DESIGNER" value="Dryw Wade"/>
+<attribute name="REV" value="v01"/>
+</part>
 <part name="TP3" library="SparkFun-Connectors" deviceset="TEST-POINT" device="3X5" value="TEST-POINT3X5"/>
 <part name="U2" library="RP2350A" deviceset="RP2350A" device=""/>
 <part name="SUPPLY2" library="SparkFun-PowerSymbols" deviceset="VDDA" device=""/>
@@ -32513,7 +32516,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <plain>
 <text x="287.02" y="220.98" size="1.778" layer="97" align="center">Max Voltage Input: 5.3VDC</text>
 <text x="287.02" y="218.44" size="1.778" layer="97" align="center">Max Current Output: 600mA</text>
-<text x="421.64" y="7.62" size="2.54" layer="94">v11</text>
 <text x="76.454" y="266.446" size="2.54" layer="94" font="vector" align="center">Raspberry Pi RP2350</text>
 <text x="178.054" y="256.286" size="2.54" layer="94" font="vector" align="center">16MB Flash</text>
 <text x="193.04" y="264.16" size="1.27" layer="97" align="center">Disable flash boot
@@ -32539,6 +32541,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="99.06" y="106.68" size="1.778" layer="97" align="center">Max Voltage on RAW: 5.3V
 V-Reg can handle up to 6V
 but WS2812 max is 5.3V</text>
+<text x="331.724" y="6.604" size="2.54" layer="94" font="vector">Based on design by: Nathan Seidle</text>
 </plain>
 <instances>
 <instance part="R11" gate="G$1" x="317.5" y="233.68" smashed="yes" rot="R90">
@@ -33451,7 +33454,7 @@ but WS2812 max is 5.3V</text>
 <pinref part="J4" gate="G$1" pin="9"/>
 </segment>
 </net>
-<net name="23/SPI_COPI" class="0">
+<net name="23/SPI_PICO" class="0">
 <segment>
 <wire x1="96.52" y1="193.04" x2="99.06" y2="193.04" width="0.1524" layer="91"/>
 <label x="99.06" y="193.04" size="1.27" layer="95" xref="yes"/>
@@ -33535,7 +33538,7 @@ but WS2812 max is 5.3V</text>
 <pinref part="J3" gate="G$1" pin="3"/>
 </segment>
 </net>
-<net name="20/SPI_CIPO" class="0">
+<net name="20/SPI_POCI" class="0">
 <segment>
 <wire x1="96.52" y1="200.66" x2="99.06" y2="200.66" width="0.1524" layer="91"/>
 <label x="99.06" y="200.66" size="1.27" layer="95" xref="yes"/>
