@@ -32510,14 +32510,15 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND8" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="SUPPLY7" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
 <part name="JP3" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39281/1"/>
+<part name="TP4" library="SparkFun-Connectors" deviceset="TEST-POINT" device="3X5" value="TEST-POINT3X5"/>
 </parts>
 <sheets>
 <sheet>
 <plain>
-<text x="287.02" y="220.98" size="1.778" layer="97" align="center">Max Voltage Input: 5.3VDC</text>
-<text x="287.02" y="218.44" size="1.778" layer="97" align="center">Max Current Output: 600mA</text>
+<text x="287.02" y="231.14" size="1.778" layer="97" align="center">Max Voltage Input: 5.3VDC</text>
+<text x="287.02" y="228.6" size="1.778" layer="97" align="center">Max Current Output: 600mA</text>
 <text x="76.454" y="266.446" size="2.54" layer="94" font="vector" align="center">Raspberry Pi RP2350</text>
-<text x="178.054" y="256.286" size="2.54" layer="94" font="vector" align="center">16MB Flash</text>
+<text x="178.054" y="271.526" size="2.54" layer="94" font="vector" align="center">16MB Flash</text>
 <text x="193.04" y="264.16" size="1.27" layer="97" align="center">Disable flash boot
 (forces USB boot)</text>
 <text x="178.054" y="185.166" size="2.54" layer="94" font="vector" align="center">Status LED</text>
@@ -32531,7 +32532,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="226.06" y1="203.2" x2="337.82" y2="203.2" width="0.2032" layer="97" style="longdash"/>
 <wire x1="337.82" y1="203.2" x2="337.82" y2="279.4" width="0.2032" layer="97" style="longdash"/>
 <wire x1="337.82" y1="203.2" x2="431.8" y2="203.2" width="0.2032" layer="97" style="longdash"/>
-<text x="287.274" y="261.366" size="2.54" layer="94" font="vector" align="center">Power Select and Regulation</text>
+<text x="282.194" y="271.526" size="2.54" layer="94" font="vector" align="center">Power Select and Regulation</text>
 <text x="383.794" y="271.526" size="2.54" layer="94" font="vector" align="center">USB</text>
 <text x="48.514" y="121.666" size="2.54" layer="94" font="vector" align="center">Connections</text>
 <text x="281.94" y="193.04" size="2.54" layer="94" font="vector" align="center">Boot / Reset Buttons</text>
@@ -32544,13 +32545,13 @@ but WS2812 max is 5.3V</text>
 <text x="331.724" y="6.604" size="2.54" layer="94" font="vector">Based on design by: Nathan Seidle</text>
 </plain>
 <instances>
-<instance part="R11" gate="G$1" x="317.5" y="233.68" smashed="yes" rot="R90">
-<attribute name="NAME" x="316.0014" y="229.87" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="320.802" y="229.87" size="1.778" layer="96" rot="R90"/>
+<instance part="R11" gate="G$1" x="317.5" y="243.84" smashed="yes" rot="R90">
+<attribute name="NAME" x="316.0014" y="240.03" size="1.778" layer="95" rot="R90"/>
+<attribute name="VALUE" x="320.802" y="240.03" size="1.778" layer="96" rot="R90"/>
 </instance>
-<instance part="LED1" gate="G$1" x="317.5" y="223.52" smashed="yes">
-<attribute name="NAME" x="321.056" y="218.948" size="1.778" layer="95" rot="R90"/>
-<attribute name="VALUE" x="323.215" y="218.948" size="1.778" layer="96" rot="R90"/>
+<instance part="LED1" gate="G$1" x="317.5" y="233.68" smashed="yes">
+<attribute name="NAME" x="314.071" y="229.108" size="1.778" layer="95" font="vector" rot="R90"/>
+<attribute name="VALUE" x="319.405" y="229.108" size="1.778" layer="96" font="vector" rot="R90" align="top-left"/>
 </instance>
 <instance part="R2" gate="G$1" x="294.64" y="172.72" smashed="yes" rot="R90">
 <attribute name="NAME" x="293.1414" y="168.91" size="1.778" layer="95" rot="R90"/>
@@ -32563,35 +32564,35 @@ but WS2812 max is 5.3V</text>
 </instance>
 <instance part="JP1" gate="G$1" x="424.18" y="17.78" smashed="yes"/>
 <instance part="JP2" gate="G$1" x="426.72" y="17.78" smashed="yes"/>
-<instance part="F1" gate="F1" x="248.92" y="241.3" smashed="yes">
-<attribute name="NAME" x="246.38" y="244.348" size="1.778" layer="95"/>
-<attribute name="VALUE" x="245.618" y="236.22" size="1.778" layer="96"/>
+<instance part="F1" gate="F1" x="248.92" y="251.46" smashed="yes">
+<attribute name="NAME" x="246.38" y="254.508" size="1.778" layer="95"/>
+<attribute name="VALUE" x="245.618" y="246.38" size="1.778" layer="96"/>
 </instance>
-<instance part="D2" gate="G$1" x="261.62" y="241.3" smashed="yes">
-<attribute name="NAME" x="264.16" y="241.7826" size="1.778" layer="95"/>
-<attribute name="VALUE" x="254.254" y="244.602" size="1.778" layer="96"/>
+<instance part="D2" gate="G$1" x="261.62" y="251.46" smashed="yes">
+<attribute name="NAME" x="264.16" y="251.9426" size="1.778" layer="95"/>
+<attribute name="VALUE" x="254.254" y="254.762" size="1.778" layer="96"/>
 </instance>
 <instance part="GND5" gate="1" x="381" y="218.44" smashed="yes">
 <attribute name="VALUE" x="381" y="218.186" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="GND1" gate="1" x="266.7" y="226.06" smashed="yes">
-<attribute name="VALUE" x="266.7" y="225.806" size="1.778" layer="96" align="top-center"/>
+<instance part="GND1" gate="1" x="266.7" y="236.22" smashed="yes">
+<attribute name="VALUE" x="266.7" y="235.966" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="GND6" gate="1" x="276.86" y="226.06" smashed="yes">
-<attribute name="VALUE" x="276.86" y="225.806" size="1.778" layer="96" align="top-center"/>
+<instance part="GND6" gate="1" x="276.86" y="236.22" smashed="yes">
+<attribute name="VALUE" x="276.86" y="235.966" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="GND7" gate="1" x="302.26" y="226.06" smashed="yes">
-<attribute name="VALUE" x="302.26" y="225.806" size="1.778" layer="96" align="top-center"/>
+<instance part="GND7" gate="1" x="302.26" y="236.22" smashed="yes">
+<attribute name="VALUE" x="302.26" y="235.966" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="GND10" gate="1" x="317.5" y="200.66" smashed="yes">
-<attribute name="VALUE" x="317.5" y="200.406" size="1.778" layer="96" align="top-center"/>
+<instance part="GND10" gate="1" x="317.5" y="210.82" smashed="yes">
+<attribute name="VALUE" x="317.5" y="210.566" size="1.778" layer="96" align="top-center"/>
 </instance>
 <instance part="GND11" gate="1" x="406.4" y="210.82" smashed="yes">
 <attribute name="VALUE" x="406.4" y="210.566" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="U1" gate="G$1" x="289.56" y="236.22" smashed="yes">
-<attribute name="NAME" x="281.94" y="244.602" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="282.194" y="226.06" size="1.778" layer="96" font="vector" rot="MR180" align="top-left"/>
+<instance part="U1" gate="G$1" x="289.56" y="246.38" smashed="yes">
+<attribute name="NAME" x="281.94" y="254.762" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="282.194" y="236.22" size="1.778" layer="96" font="vector" rot="MR180" align="top-left"/>
 </instance>
 <instance part="R1" gate="R1" x="388.62" y="220.98" smashed="yes" rot="R90">
 <attribute name="NAME" x="387.096" y="220.98" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
@@ -32607,13 +32608,13 @@ but WS2812 max is 5.3V</text>
 <instance part="GND14" gate="1" x="396.24" y="210.82" smashed="yes">
 <attribute name="VALUE" x="396.24" y="210.566" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="C7" gate="G$1" x="266.7" y="236.22" smashed="yes" rot="R180">
-<attribute name="NAME" x="268.224" y="236.22" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="268.224" y="231.521" size="1.778" layer="96" font="vector"/>
+<instance part="C7" gate="G$1" x="266.7" y="246.38" smashed="yes" rot="R180">
+<attribute name="NAME" x="268.224" y="246.38" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="268.224" y="241.681" size="1.778" layer="96" font="vector"/>
 </instance>
-<instance part="C8" gate="G$1" x="302.26" y="236.22" smashed="yes" rot="R180">
-<attribute name="NAME" x="302.768" y="236.22" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="302.768" y="231.14" size="1.778" layer="96" font="vector"/>
+<instance part="C8" gate="G$1" x="302.26" y="246.38" smashed="yes" rot="R180">
+<attribute name="NAME" x="302.768" y="246.38" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="302.768" y="241.3" size="1.778" layer="96" font="vector"/>
 </instance>
 <instance part="S1" gate="G$1" x="294.64" y="157.48" smashed="yes" rot="R90">
 <attribute name="NAME" x="293.116" y="157.48" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
@@ -32623,8 +32624,8 @@ but WS2812 max is 5.3V</text>
 <attribute name="VALUE" x="294.64" y="147.066" size="1.778" layer="96" align="top-center"/>
 </instance>
 <instance part="LOGO1" gate="G$1" x="334.772" y="40.64" smashed="yes"/>
-<instance part="SUPPLY6" gate="G$1" x="241.3" y="243.84" smashed="yes">
-<attribute name="VALUE" x="241.3" y="246.634" size="1.778" layer="96" align="bottom-center"/>
+<instance part="SUPPLY6" gate="G$1" x="241.3" y="254" smashed="yes">
+<attribute name="VALUE" x="241.3" y="256.794" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 <instance part="SUPPLY8" gate="G$1" x="406.4" y="226.06" smashed="yes">
 <attribute name="VALUE" x="406.4" y="228.854" size="1.778" layer="96" align="bottom-center"/>
@@ -32656,8 +32657,8 @@ but WS2812 max is 5.3V</text>
 <attribute name="NAME" x="49.276" y="53.34" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
 <attribute name="VALUE" x="52.324" y="53.34" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
-<instance part="SUPPLY12" gate="G$1" x="317.5" y="243.84" smashed="yes">
-<attribute name="VALUE" x="317.5" y="246.634" size="1.778" layer="96" align="bottom-center"/>
+<instance part="SUPPLY12" gate="G$1" x="317.5" y="254" smashed="yes">
+<attribute name="VALUE" x="317.5" y="256.794" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 <instance part="SUPPLY3" gate="G$1" x="43.18" y="48.26" smashed="yes">
 <attribute name="VALUE" x="43.18" y="51.054" size="1.778" layer="96" align="bottom-center"/>
@@ -32937,8 +32938,11 @@ but WS2812 max is 5.3V</text>
 <instance part="SUPPLY7" gate="G$1" x="7.62" y="160.02" smashed="yes">
 <attribute name="VALUE" x="7.62" y="162.814" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="JP3" gate="G$1" x="317.5" y="210.82" smashed="yes" rot="R90">
-<attribute name="NAME" x="314.452" y="210.82" size="1.778" layer="95" font="vector" rot="R90" align="center"/>
+<instance part="JP3" gate="G$1" x="317.5" y="220.98" smashed="yes" rot="R90">
+<attribute name="NAME" x="314.452" y="220.98" size="1.778" layer="95" font="vector" rot="R90" align="center"/>
+</instance>
+<instance part="TP4" gate="G$1" x="119.38" y="144.78" smashed="yes">
+<attribute name="NAME" x="117.348" y="145.034" size="1.778" layer="95" font="vector"/>
 </instance>
 </instances>
 <busses>
@@ -32983,8 +32987,8 @@ but WS2812 max is 5.3V</text>
 <segment>
 <pinref part="U1" gate="G$1" pin="GND"/>
 <pinref part="GND6" gate="1" pin="GND"/>
-<wire x1="279.4" y1="231.14" x2="276.86" y2="231.14" width="0.1524" layer="91"/>
-<wire x1="276.86" y1="231.14" x2="276.86" y2="228.6" width="0.1524" layer="91"/>
+<wire x1="279.4" y1="241.3" x2="276.86" y2="241.3" width="0.1524" layer="91"/>
+<wire x1="276.86" y1="241.3" x2="276.86" y2="238.76" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="S1" gate="G$1" pin="1"/>
@@ -32994,12 +32998,12 @@ but WS2812 max is 5.3V</text>
 <segment>
 <pinref part="C7" gate="G$1" pin="1"/>
 <pinref part="GND1" gate="1" pin="GND"/>
-<wire x1="266.7" y1="231.14" x2="266.7" y2="228.6" width="0.1524" layer="91"/>
+<wire x1="266.7" y1="241.3" x2="266.7" y2="238.76" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="C8" gate="G$1" pin="1"/>
 <pinref part="GND7" gate="1" pin="GND"/>
-<wire x1="302.26" y1="231.14" x2="302.26" y2="228.6" width="0.1524" layer="91"/>
+<wire x1="302.26" y1="241.3" x2="302.26" y2="238.76" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="J2" gate="J1" pin="1"/>
@@ -33126,32 +33130,32 @@ but WS2812 max is 5.3V</text>
 <segment>
 <pinref part="JP3" gate="G$1" pin="1"/>
 <pinref part="GND10" gate="1" pin="GND"/>
-<wire x1="317.5" y1="203.2" x2="317.5" y2="205.74" width="0.1524" layer="91"/>
+<wire x1="317.5" y1="213.36" x2="317.5" y2="215.9" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$38" class="0">
 <segment>
-<wire x1="317.5" y1="226.06" x2="317.5" y2="228.6" width="0.1524" layer="91"/>
+<wire x1="317.5" y1="236.22" x2="317.5" y2="238.76" width="0.1524" layer="91"/>
 <pinref part="R11" gate="G$1" pin="1"/>
 <pinref part="LED1" gate="G$1" pin="A"/>
 </segment>
 </net>
 <net name="RAW" class="1">
 <segment>
-<wire x1="266.7" y1="241.3" x2="276.86" y2="241.3" width="0.1524" layer="91"/>
-<wire x1="276.86" y1="241.3" x2="279.4" y2="241.3" width="0.1524" layer="91"/>
-<wire x1="266.7" y1="241.3" x2="264.16" y2="241.3" width="0.1524" layer="91"/>
-<junction x="266.7" y="241.3"/>
+<wire x1="266.7" y1="251.46" x2="276.86" y2="251.46" width="0.1524" layer="91"/>
+<wire x1="276.86" y1="251.46" x2="279.4" y2="251.46" width="0.1524" layer="91"/>
+<wire x1="266.7" y1="251.46" x2="264.16" y2="251.46" width="0.1524" layer="91"/>
+<junction x="266.7" y="251.46"/>
 <pinref part="D2" gate="G$1" pin="C"/>
 <pinref part="U1" gate="G$1" pin="IN"/>
 <pinref part="U1" gate="G$1" pin="EN"/>
-<wire x1="279.4" y1="236.22" x2="276.86" y2="236.22" width="0.1524" layer="91"/>
-<wire x1="276.86" y1="236.22" x2="276.86" y2="241.3" width="0.1524" layer="91"/>
-<junction x="276.86" y="241.3"/>
+<wire x1="279.4" y1="246.38" x2="276.86" y2="246.38" width="0.1524" layer="91"/>
+<wire x1="276.86" y1="246.38" x2="276.86" y2="251.46" width="0.1524" layer="91"/>
+<junction x="276.86" y="251.46"/>
 <pinref part="C7" gate="G$1" pin="2"/>
-<wire x1="266.7" y1="238.76" x2="266.7" y2="241.3" width="0.1524" layer="91"/>
-<wire x1="276.86" y1="241.3" x2="276.86" y2="243.84" width="0.1524" layer="91"/>
-<label x="276.86" y="243.84" size="1.27" layer="95" rot="R90" xref="yes"/>
+<wire x1="266.7" y1="248.92" x2="266.7" y2="251.46" width="0.1524" layer="91"/>
+<wire x1="276.86" y1="251.46" x2="276.86" y2="254" width="0.1524" layer="91"/>
+<label x="276.86" y="254" size="1.27" layer="95" rot="R90" xref="yes"/>
 </segment>
 <segment>
 <wire x1="66.04" y1="106.68" x2="63.5" y2="106.68" width="0.1524" layer="91"/>
@@ -33227,7 +33231,7 @@ but WS2812 max is 5.3V</text>
 </net>
 <net name="USB_RAW" class="1">
 <segment>
-<wire x1="256.54" y1="241.3" x2="259.08" y2="241.3" width="0.1524" layer="91"/>
+<wire x1="256.54" y1="251.46" x2="259.08" y2="251.46" width="0.1524" layer="91"/>
 <pinref part="F1" gate="F1" pin="2"/>
 <pinref part="D2" gate="G$1" pin="A"/>
 </segment>
@@ -33256,9 +33260,9 @@ but WS2812 max is 5.3V</text>
 </segment>
 <segment>
 <pinref part="F1" gate="F1" pin="1"/>
-<wire x1="243.84" y1="241.3" x2="241.3" y2="241.3" width="0.1524" layer="91"/>
+<wire x1="243.84" y1="251.46" x2="241.3" y2="251.46" width="0.1524" layer="91"/>
 <pinref part="SUPPLY6" gate="G$1" pin="V_USB"/>
-<wire x1="241.3" y1="241.3" x2="241.3" y2="243.84" width="0.1524" layer="91"/>
+<wire x1="241.3" y1="251.46" x2="241.3" y2="254" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <wire x1="378.46" y1="238.76" x2="388.62" y2="238.76" width="0.1524" layer="91"/>
@@ -33273,16 +33277,16 @@ but WS2812 max is 5.3V</text>
 </net>
 <net name="3.3V" class="0">
 <segment>
-<wire x1="297.18" y1="241.3" x2="302.26" y2="241.3" width="0.1524" layer="91"/>
-<wire x1="302.26" y1="241.3" x2="317.5" y2="241.3" width="0.1524" layer="91"/>
-<wire x1="317.5" y1="241.3" x2="317.5" y2="243.84" width="0.1524" layer="91"/>
-<wire x1="317.5" y1="241.3" x2="317.5" y2="238.76" width="0.1524" layer="91"/>
-<junction x="317.5" y="241.3"/>
+<wire x1="297.18" y1="251.46" x2="302.26" y2="251.46" width="0.1524" layer="91"/>
+<wire x1="302.26" y1="251.46" x2="317.5" y2="251.46" width="0.1524" layer="91"/>
+<wire x1="317.5" y1="251.46" x2="317.5" y2="254" width="0.1524" layer="91"/>
+<wire x1="317.5" y1="251.46" x2="317.5" y2="248.92" width="0.1524" layer="91"/>
+<junction x="317.5" y="251.46"/>
 <pinref part="R11" gate="G$1" pin="2"/>
 <pinref part="U1" gate="G$1" pin="OUT"/>
 <pinref part="C8" gate="G$1" pin="2"/>
-<wire x1="302.26" y1="238.76" x2="302.26" y2="241.3" width="0.1524" layer="91"/>
-<junction x="302.26" y="241.3"/>
+<wire x1="302.26" y1="248.92" x2="302.26" y2="251.46" width="0.1524" layer="91"/>
+<junction x="302.26" y="251.46"/>
 <pinref part="SUPPLY12" gate="G$1" pin="3.3V"/>
 </segment>
 <segment>
@@ -33839,6 +33843,11 @@ but WS2812 max is 5.3V</text>
 <wire x1="269.24" y1="165.1" x2="271.78" y2="165.1" width="0.1524" layer="91"/>
 <label x="271.78" y="165.1" size="1.27" layer="95" xref="yes"/>
 </segment>
+<segment>
+<pinref part="TP4" gate="G$1" pin="1"/>
+<wire x1="119.38" y1="144.78" x2="116.84" y2="144.78" width="0.1524" layer="91"/>
+<label x="116.84" y="144.78" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
+</segment>
 </net>
 <net name="25/WS2812-DI" class="0">
 <segment>
@@ -33891,7 +33900,7 @@ but WS2812 max is 5.3V</text>
 <segment>
 <pinref part="LED1" gate="G$1" pin="C"/>
 <pinref part="JP3" gate="G$1" pin="2"/>
-<wire x1="317.5" y1="215.9" x2="317.5" y2="218.44" width="0.1524" layer="91"/>
+<wire x1="317.5" y1="226.06" x2="317.5" y2="228.6" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
