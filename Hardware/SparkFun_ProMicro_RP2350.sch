@@ -25486,6 +25486,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <pin name="VDDA" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
 <text x="0" y="2.794" size="1.778" layer="96" font="vector" align="bottom-center">&gt;VALUE</text>
 </symbol>
+<symbol name="1.1V">
+<description>&lt;h3&gt;1.1V Voltage Supply&lt;/h3&gt;</description>
+<wire x1="0.762" y1="1.27" x2="0" y2="2.54" width="0.254" layer="94"/>
+<wire x1="0" y1="2.54" x2="-0.762" y2="1.27" width="0.254" layer="94"/>
+<text x="0" y="2.794" size="1.778" layer="96" font="vector" align="bottom-center">&gt;VALUE</text>
+<pin name="1.1V" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
+</symbol>
 </symbols>
 <devicesets>
 <deviceset name="GND" prefix="GND">
@@ -25534,6 +25541,20 @@ You are welcome to use this library for commercial purposes. For attribution, we
 &lt;p&gt;Generic analog supply symbol.&lt;/p&gt;</description>
 <gates>
 <gate name="G$1" symbol="VDDA" x="0" y="0"/>
+</gates>
+<devices>
+<device name="">
+<technologies>
+<technology name=""/>
+</technologies>
+</device>
+</devices>
+</deviceset>
+<deviceset name="1.1V" prefix="SUPPLY">
+<description>&lt;h3&gt;1.1V Supply Symbol&lt;/h3&gt;
+&lt;p&gt;Power supply symbol for a specifically-stated 1.1V source.&lt;/p&gt;</description>
+<gates>
+<gate name="G$1" symbol="1.1V" x="0" y="0"/>
 </gates>
 <devices>
 <device name="">
@@ -31595,35 +31616,6 @@ This footprint was designed to help hold the alignment of a through-hole compone
 </deviceset>
 </devicesets>
 </library>
-<library name="RP2040">
-<packages>
-</packages>
-<symbols>
-<symbol name="1.1V">
-<description>&lt;h3&gt;1.1V Voltage Supply&lt;/h3&gt;</description>
-<wire x1="0.762" y1="1.27" x2="0" y2="2.54" width="0.254" layer="94"/>
-<wire x1="0" y1="2.54" x2="-0.762" y2="1.27" width="0.254" layer="94"/>
-<text x="0" y="2.794" size="1.778" layer="96" align="bottom-center">&gt;VALUE</text>
-<pin name="1.1V" x="0" y="0" visible="off" length="short" direction="sup" rot="R90"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="1.1V" prefix="SUPPLY">
-<description>&lt;h3&gt;1.1V Supply Symbol&lt;/h3&gt;
-&lt;p&gt;Power supply symbol for a specifically-stated 1.1V source.&lt;/p&gt;</description>
-<gates>
-<gate name="G$1" symbol="1.1V" x="0" y="0"/>
-</gates>
-<devices>
-<device name="">
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 <library name="SparkFun-IC-Memory">
 <description>&lt;h3&gt;SparkFun Memory ICs&lt;/h3&gt;
 This library contains memory ICs.
@@ -32598,13 +32590,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND25" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="R12" library="SparkFun-Resistors" deviceset="27OHM" device="" value="27"/>
 <part name="R13" library="SparkFun-Resistors" deviceset="27OHM" device="" value="27"/>
-<part name="SUPPLY24" library="RP2040" deviceset="1.1V" device=""/>
-<part name="SUPPLY25" library="RP2040" deviceset="1.1V" device=""/>
-<part name="SUPPLY26" library="RP2040" deviceset="1.1V" device=""/>
+<part name="SUPPLY24" library="SparkFun-PowerSymbols" deviceset="1.1V" device=""/>
+<part name="SUPPLY25" library="SparkFun-PowerSymbols" deviceset="1.1V" device=""/>
+<part name="SUPPLY26" library="SparkFun-PowerSymbols" deviceset="1.1V" device=""/>
 <part name="C20" library="SparkFun-Capacitors" deviceset="10UF" device="-0402T-6.3V-20%" value="10uF"/>
 <part name="C21" library="SparkFun-Capacitors" deviceset="10UF" device="-0402T-6.3V-20%" value="10uF"/>
 <part name="SUPPLY27" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
-<part name="SUPPLY28" library="RP2040" deviceset="1.1V" device=""/>
+<part name="SUPPLY28" library="SparkFun-PowerSymbols" deviceset="1.1V" device=""/>
 <part name="GND26" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND27" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="R14" library="SparkFun-Resistors" deviceset="10OHM" device="-0402-1/16W-5%" value="10Ω"/>
@@ -32641,7 +32633,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="SUPPLY4" library="SparkFun-PowerSymbols" deviceset="VDDA" device=""/>
 <part name="C1" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0402T-6.3V-10%-X7R" value="0.1uF"/>
 <part name="GND3" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="SUPPLY5" library="RP2040" deviceset="1.1V" device=""/>
+<part name="SUPPLY5" library="SparkFun-PowerSymbols" deviceset="1.1V" device=""/>
 <part name="L1" library="SparkFun-Coils" deviceset="4.7μH_SHIELDED_INDUCTOR" device="" value="4.7μH"/>
 <part name="C2" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0402T-6.3V-10%-X7R" value="0.1uF"/>
 <part name="GND8" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
