@@ -430,8 +430,8 @@
 <pin name="GPIO27/ADC1" x="17.78" y="-30.48" length="short" rot="R180"/>
 <pin name="GPIO28/ADC2" x="17.78" y="-33.02" length="short" rot="R180"/>
 <pin name="GPIO29/ADC3" x="17.78" y="-35.56" length="short" rot="R180"/>
-<pin name="VREG_VIN" x="-17.78" y="27.94" length="short"/>
-<pin name="VREG_AVDD" x="-17.78" y="25.4" length="short"/>
+<pin name="VREG_VIN" x="-17.78" y="25.4" length="short"/>
+<pin name="VREG_AVDD" x="-17.78" y="27.94" length="short"/>
 <pin name="QSPI_SD3" x="-17.78" y="-22.86" length="short"/>
 <pin name="QSPI_SCLK" x="-17.78" y="-25.4" length="short"/>
 <pin name="QSPI_SD0" x="-17.78" y="-15.24" length="short"/>
