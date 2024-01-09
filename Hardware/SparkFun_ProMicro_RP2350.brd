@@ -1695,10 +1695,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 &lt;li&gt;Area: 2.2 mm x 2.0 mm&lt;/li&gt;
 &lt;/ul&gt;&lt;/p&gt;
 &lt;p&gt;&lt;a href=https://www.aliexpress.com/store/product/WS2812-2020-Intelligent-control-LED-integrated-light-source-2020-SMD-RGB-LED-with-built-in-WS2811/701799_32879024689.html?spm=2114.12010612.8148356.3.67626848TBx3Ev&gt;Datasheet referenced for footprint&lt;/a&gt;&lt;/p&gt;</description>
-<smd name="2" x="0.915" y="0.55" dx="0.7" dy="0.7" layer="1"/>
-<smd name="1" x="0.915" y="-0.55" dx="0.7" dy="0.7" layer="1"/>
-<smd name="4" x="-0.915" y="-0.55" dx="0.7" dy="0.7" layer="1"/>
-<smd name="3" x="-0.915" y="0.55" dx="0.7" dy="0.7" layer="1"/>
+<smd name="GND" x="0.915" y="0.55" dx="0.7" dy="0.7" layer="1"/>
+<smd name="DO" x="0.915" y="-0.55" dx="0.7" dy="0.7" layer="1"/>
+<smd name="VCC" x="-0.915" y="-0.55" dx="0.7" dy="0.7" layer="1"/>
+<smd name="DI" x="-0.915" y="0.55" dx="0.7" dy="0.7" layer="1"/>
 <wire x1="-1.1" y1="1.1" x2="1.1" y2="1.1" width="0.127" layer="21"/>
 <wire x1="1.1" y1="-1.1" x2="-1.1" y2="-1.1" width="0.127" layer="21"/>
 <rectangle x1="0" y1="-1" x2="0.5" y2="1" layer="51"/>
@@ -7557,7 +7557,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <element name="U$75" library="output" package="RX1" value="" x="2.667" y="26.67" smashed="yes" rot="R270"/>
 <element name="U$76" library="output" package="TX0" value="" x="2.667" y="29.21" smashed="yes" rot="R270"/>
 <element name="U$2" library="output" package="GND_0" value="" x="15.113" y="26.797" smashed="yes" rot="R90"/>
-<element name="U3" library="SparkFun-LED" package="WS2812-2020" value="WS2812-2020" x="15.6" y="31.5" smashed="yes" rot="R90">
+<element name="U3" library="SparkFun-LED" package="WS2812-2020" value="WS2812_2020" x="15.6" y="31.5" smashed="yes" rot="R90">
 <attribute name="PROD_ID" value="DIO-15591" x="15.6" y="31.5" size="1.778" layer="27" rot="R90" display="off"/>
 </element>
 <element name="U$6" library="output" package="70" value="" x="2.667" y="6.35" smashed="yes" rot="MR0"/>
@@ -7731,7 +7731,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <via x="7.62" y="11.43" extent="1-16" drill="0.2"/>
 <via x="10.16" y="11.43" extent="1-16" drill="0.2"/>
 <via x="8.89" y="12.7" extent="1-16" drill="0.2"/>
-<contactref element="U3" pad="2"/>
 <contactref element="U2" pad="EPAD"/>
 <contactref element="U2" pad="47"/>
 <via x="3.683" y="8.382" extent="1-16" drill="0.2"/>
@@ -7777,6 +7776,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="11.93" y1="24.511" x2="11.36325" y2="24.511" width="0.127" layer="1"/>
 <wire x1="11.36325" y1="24.511" x2="11.32995" y2="24.4777" width="0.127" layer="1"/>
 <wire x1="11.32995" y1="24.4777" x2="10.414" y2="24.4777" width="0.127" layer="1"/>
+<contactref element="U3" pad="GND"/>
 </signal>
 <signal name="N$38">
 <contactref element="R11" pad="1"/>
@@ -7812,11 +7812,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="18.08" y1="29.21" x2="16.51" y2="29.21" width="0.127" layer="1"/>
 <wire x1="16.1163" y1="29.6037" x2="16.51" y2="29.21" width="0.3048" layer="15"/>
 <wire x1="8.1865375" y1="29.6037" x2="16.1163" y2="29.6037" width="0.3048" layer="15"/>
-<contactref element="U3" pad="4"/>
-<wire x1="16.15" y1="30.585" x2="16.51" y2="30.225" width="0.127" layer="1"/>
 <wire x1="16.51" y1="30.225" x2="16.51" y2="29.21" width="0.127" layer="1"/>
 <wire x1="9.84" y1="25.4301" x2="10.5189" y2="25.4301" width="0.3048" layer="1"/>
 <wire x1="10.5189" y1="25.4301" x2="10.93" y2="25.019" width="0.3048" layer="1"/>
+<contactref element="U3" pad="VCC"/>
+<wire x1="16.15" y1="30.585" x2="16.51" y2="30.225" width="0.127" layer="1"/>
 </signal>
 <signal name="A3">
 <contactref element="J4" pad="5"/>
@@ -8585,13 +8585,11 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="3.302" y1="3.302" x2="2.921" y2="3.302" width="0.127" layer="16"/>
 </signal>
 <signal name="25/WS2812-DI">
-<contactref element="U3" pad="3"/>
 <via x="15" y="28.5" extent="1-16" drill="0.2"/>
 <wire x1="14.1843" y1="22.6043" x2="14.1843" y2="15.4543" width="0.127" layer="2"/>
 <wire x1="15" y1="23.42" x2="14.1843" y2="22.6043" width="0.127" layer="2"/>
 <wire x1="15" y1="23.42" x2="15" y2="28.5" width="0.127" layer="2"/>
-<wire x1="15" y1="28.5" x2="15" y2="30.535" width="0.127" layer="1"/>
-<wire x1="15" y1="30.535" x2="15.05" y2="30.585" width="0.127" layer="1"/>
+<wire x1="15" y1="30.535" x2="15" y2="28.5" width="0.127" layer="1"/>
 <contactref element="U2" pad="37"/>
 <wire x1="12.3265" y1="11.03" x2="12.6936" y2="11.03" width="0.127" layer="1"/>
 <wire x1="13.081" y1="10.6426" x2="13.081" y2="10.6172" width="0.127" layer="1"/>
@@ -8600,15 +8598,17 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="14.1843" y1="15.4543" x2="12.7" y2="13.97" width="0.127" layer="2"/>
 <wire x1="12.7" y1="13.97" x2="12.7" y2="10.9982" width="0.127" layer="2"/>
 <wire x1="13.081" y1="10.6172" x2="12.7" y2="10.9982" width="0.127" layer="2"/>
+<contactref element="U3" pad="DI"/>
+<wire x1="15.05" y1="30.585" x2="15" y2="30.535" width="0.127" layer="1"/>
 </signal>
-<signal name="LED_OUT">
+<signal name="WS2812-DO">
 <contactref element="TP3" pad="1"/>
 <wire x1="16.51" y1="31.75" x2="17.145" y2="31.115" width="0.1778" layer="16"/>
 <wire x1="17.145" y1="31.115" x2="17.145" y2="30.861" width="0.1778" layer="16"/>
 <via x="17.145" y="30.861" extent="1-16" drill="0.2"/>
 <wire x1="17.145" y1="30.861" x2="17.145" y2="32.131" width="0.1778" layer="1"/>
 <wire x1="16.861" y1="32.415" x2="17.145" y2="32.131" width="0.1778" layer="1"/>
-<contactref element="U3" pad="1"/>
+<contactref element="U3" pad="DO"/>
 <wire x1="16.15" y1="32.415" x2="16.861" y2="32.415" width="0.1778" layer="1"/>
 </signal>
 <signal name="VDDA">
