@@ -220,7 +220,8 @@ Material: TG135-140
 Board thickness: 0.8mm
 Soldermask: Red
 Silkscreen: White
-Surface Finish: Lead-Free HASL</text>
+Surface Finish: Lead-Free HASL
+Castellated Leads</text>
 <dimension x1="1.27" y1="1.27" x2="1.27" y2="0" x3="-2.54" y3="0.635" textsize="1.778" textratio="15" layer="47" unit="inch"/>
 <dimension x1="1.27" y1="29.21" x2="1.27" y2="0" x3="-6.35" y3="14.605" textsize="1.778" textratio="15" layer="47" unit="inch"/>
 <polygon width="0" layer="22">
