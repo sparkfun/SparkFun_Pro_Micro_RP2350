@@ -25607,33 +25607,12 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="V_REG_AP2112" prefix="U">
-<description>&lt;h3&gt;AP2112 - 600mA CMOS LDO Regulator w/ Enable&lt;/h3&gt;
-&lt;p&gt;The AP2112 is CMOS process low dropout linear regulator with enable function, the regulator delivers a guaranteed 600mA (min.) continuous load current.&lt;/p&gt;
-&lt;p&gt;Features&lt;br&gt;
-&lt;ul&gt;
-&lt;li&gt;Output Voltage Accuracy: ±1.5% &lt;/li&gt;
-&lt;li&gt;Output Current: 600mA (Min.) &lt;/li&gt;
-&lt;li&gt;Foldback Short Current Protection: 50mA &lt;/li&gt;
-&lt;li&gt;Enable Function to Turn ON/OFF VOUT&lt;/li&gt;
-&lt;li&gt;Low Dropout Voltage (3.3V): 250mV (Typ.) @IOUT=600mA &lt;/li&gt;
-&lt;li&gt;Excellent Load Regulation: 0.2%/A (Typ.) &lt;/li&gt;
-&lt;li&gt;Excellent Line Regulation: 0.02%/V (Typ.) &lt;/li&gt;
-&lt;li&gt;Low Quiescent Current: 55μA (Typ.)&lt;/li&gt;
-&lt;li&gt;Low Standby Current: 0.01μA (Typ.)&lt;/li&gt;
-&lt;li&gt;Low Output Noise: 50μVRMS &lt;/li&gt;
-&lt;li&gt;PSRR: 100Hz -65dB, 1kHz -65dB &lt;/li&gt;
-&lt;li&gt; OTSD Protection &lt;/li&gt;
-&lt;li&gt;Stable  with  1.0μF Flexible Cap: Ceramic, Tantalum and Aluminum Electrolytic &lt;/li&gt;
-&lt;li&gt;Operation Temperature Range: -40°C to 85°C &lt;/li&gt;
-&lt;li&gt;ESD: MM 400V, HBM 4000V&lt;/li&gt;
-&lt;/ul&gt;
-&lt;/p&gt;</description>
+<deviceset name="V_REG_RT9080" prefix="U">
 <gates>
 <gate name="G$1" symbol="V-REG-LDO_NO-BP" x="0" y="0"/>
 </gates>
 <devices>
-<device name="K-3.3V" package="SOT23-5">
+<device name="" package="SOT23-5">
 <connects>
 <connect gate="G$1" pin="EN" pad="3"/>
 <connect gate="G$1" pin="GND" pad="2"/>
@@ -25642,8 +25621,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </connects>
 <technologies>
 <technology name="">
-<attribute name="PROD_ID" value="VREG-12457"/>
-<attribute name="VALUE" value="3.3V"/>
+<attribute name="PROD_ID" value="VREG-19034"/>
+<attribute name="VALUE" value="RT9080-33GJ5"/>
 </technology>
 </technologies>
 </device>
@@ -26580,111 +26559,6 @@ Commonly used for small ceramic capacitors. Like our 0.1uF (http://www.sparkfun.
 </symbol>
 </symbols>
 <devicesets>
-<deviceset name="1.0UF" prefix="C">
-<description>&lt;h3&gt;1µF ceramic capacitors&lt;/h3&gt;
-&lt;p&gt;A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field.&lt;/p&gt;</description>
-<gates>
-<gate name="G$1" symbol="CAP" x="0" y="0"/>
-</gates>
-<devices>
-<device name="-0603-16V-10%" package="0603">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="CAP-00868"/>
-<attribute name="VALUE" value="1.0uF"/>
-</technology>
-</technologies>
-</device>
-<device name="-0402-16V-10%" package="0402">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="CAP-12417"/>
-<attribute name="VALUE" value="1.0uF"/>
-</technology>
-</technologies>
-</device>
-<device name="-0805-25V-(+80/-20%)" package="0805">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="CAP-11625"/>
-<attribute name="VALUE" value="1.0uF"/>
-</technology>
-</technologies>
-</device>
-<device name="-1206-50V-10%" package="1206">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="CAP-09822"/>
-<attribute name="VALUE" value="1.0uF"/>
-</technology>
-</technologies>
-</device>
-<device name="-0805-25V-10%" package="0805">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="CAP-08064"/>
-<attribute name="VALUE" value="1.0uF"/>
-</technology>
-</technologies>
-</device>
-<device name="-0603-16V-10%-X7R" package="0603">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="CAP-13930"/>
-<attribute name="VALUE" value="1.0uF"/>
-</technology>
-</technologies>
-</device>
-<device name="-0402T-16V-10%" package="0402-TIGHT">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="CAP-12417" constant="no"/>
-<attribute name="VALUE" value="1.0uF" constant="no"/>
-</technology>
-</technologies>
-</device>
-<device name="-0603-16V-10%-X7R-WE" package="0603">
-<connects>
-<connect gate="G$1" pin="1" pad="1"/>
-<connect gate="G$1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name="">
-<attribute name="PROD_ID" value="CAP-16504" constant="no"/>
-<attribute name="VALUE" value="1.0uF" constant="no"/>
-</technology>
-</technologies>
-</device>
-</devices>
-</deviceset>
 <deviceset name="0.1UF" prefix="C">
 <description>&lt;h3&gt;0.1µF ceramic capacitors&lt;/h3&gt;
 &lt;p&gt;A capacitor is a passive two-terminal electrical component used to store electrical energy temporarily in an electric field.&lt;/p&gt;</description>
@@ -32392,7 +32266,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="LED1" library="SparkFun-LED" deviceset="LED-RED" device="0603" value="Red"/>
 <part name="R2" library="SparkFun-Resistors" deviceset="10KOHM" device="-0402T-1/16W-1%" value="10k"/>
 <part name="U$3" library="SparkFun-Aesthetics" deviceset="OSHW-LOGO" device="MINI"/>
-<part name="C6" library="SparkFun-Capacitors" deviceset="1.0UF" device="-0402T-16V-10%" value="1.0uF"/>
 <part name="JP1" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="1X2"/>
 <part name="JP2" library="SparkFun-Aesthetics" deviceset="FIDUCIAL" device="1X2"/>
 <part name="F1" library="SparkFun-Fuses" deviceset="PPTC" device="_6V500MA" value="6V 0.5A"/>
@@ -32402,8 +32275,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND6" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND7" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="GND10" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="GND11" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
-<part name="U1" library="SparkFun-IC-Power" deviceset="V_REG_AP2112" device="K-3.3V" value="3.3V"/>
+<part name="U1" library="SparkFun-IC-Power" deviceset="V_REG_RT9080" device="" value="RT9080-33GJ5"/>
 <part name="R1" library="SparkFun-Resistors" deviceset="5.1KOHM" device="-0402T-1/16W-1%" value="5.1k"/>
 <part name="R3" library="SparkFun-Resistors" deviceset="5.1KOHM" device="-0402T-1/16W-1%" value="5.1k"/>
 <part name="GND13" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
@@ -32414,7 +32286,6 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND15" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="LOGO1" library="SparkFun-Aesthetics" deviceset="SFE_LOGO_NAME_FLAME" device=".1_INCH"/>
 <part name="SUPPLY6" library="SparkFun-PowerSymbols" deviceset="V_USB" device=""/>
-<part name="SUPPLY8" library="SparkFun-PowerSymbols" deviceset="V_USB" device=""/>
 <part name="J2" library="SparkFun-Connectors" deviceset="QWIIC_CONNECTOR" device="JS-1MM" value="QWIIC_RIGHT_ANGLE"/>
 <part name="SUPPLY9" library="SparkFun-PowerSymbols" deviceset="V_USB" device=""/>
 <part name="GND16" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
@@ -32509,14 +32380,16 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="C2" library="SparkFun-Capacitors" deviceset="0.1UF" device="-0402T-6.3V-10%-X7R" value="0.1uF"/>
 <part name="GND8" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="SUPPLY7" library="SparkFun-PowerSymbols" deviceset="3.3V" device=""/>
-<part name="JP3" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39281/1"/>
+<part name="PWR" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39281/1"/>
 <part name="TP4" library="SparkFun-Connectors" deviceset="TEST-POINT" device="3X5" value="TEST-POINT3X5"/>
+<part name="SHLD" library="SparkFun-Jumpers" deviceset="JUMPER-SMT_2_NC_TRACE" device="_SILK" package3d_urn="urn:adsk.eagle:package:39281/1"/>
+<part name="GND9" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 </parts>
 <sheets>
 <sheet>
 <plain>
-<text x="287.02" y="231.14" size="1.778" layer="97" align="center">Max Voltage Input: 5.3VDC</text>
-<text x="287.02" y="228.6" size="1.778" layer="97" align="center">Max Current Output: 600mA</text>
+<text x="287.02" y="228.6" size="1.778" layer="97" font="vector" align="center">Max Voltage Input: 5.5V</text>
+<text x="287.02" y="226.06" size="1.778" layer="97" font="vector" align="center">Max Current Output: 600mA</text>
 <text x="76.454" y="266.446" size="2.54" layer="94" font="vector" align="center">Raspberry Pi RP2350</text>
 <text x="178.054" y="271.526" size="2.54" layer="94" font="vector" align="center">16MB Flash</text>
 <text x="193.04" y="264.16" size="1.27" layer="97" align="center">Disable flash boot
@@ -32558,10 +32431,6 @@ but WS2812 max is 5.3V</text>
 <attribute name="VALUE" x="297.942" y="168.91" size="1.778" layer="96" rot="R90"/>
 </instance>
 <instance part="U$3" gate="G$1" x="411.48" y="45.72" smashed="yes"/>
-<instance part="C6" gate="G$1" x="406.4" y="220.98" smashed="yes" rot="R180">
-<attribute name="NAME" x="407.416" y="221.107" size="1.778" layer="95"/>
-<attribute name="VALUE" x="407.416" y="216.281" size="1.778" layer="96"/>
-</instance>
 <instance part="JP1" gate="G$1" x="424.18" y="17.78" smashed="yes"/>
 <instance part="JP2" gate="G$1" x="426.72" y="17.78" smashed="yes"/>
 <instance part="F1" gate="F1" x="248.92" y="251.46" smashed="yes">
@@ -32587,26 +32456,23 @@ but WS2812 max is 5.3V</text>
 <instance part="GND10" gate="1" x="317.5" y="210.82" smashed="yes">
 <attribute name="VALUE" x="317.5" y="210.566" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="GND11" gate="1" x="406.4" y="210.82" smashed="yes">
-<attribute name="VALUE" x="406.4" y="210.566" size="1.778" layer="96" align="top-center"/>
-</instance>
 <instance part="U1" gate="G$1" x="289.56" y="246.38" smashed="yes">
-<attribute name="NAME" x="281.94" y="254.762" size="1.778" layer="95" font="vector"/>
-<attribute name="VALUE" x="282.194" y="236.22" size="1.778" layer="96" font="vector" rot="MR180" align="top-left"/>
+<attribute name="NAME" x="281.94" y="254.254" size="1.778" layer="95" font="vector"/>
+<attribute name="VALUE" x="281.94" y="238.506" size="1.778" layer="96" font="vector" align="top-left"/>
 </instance>
-<instance part="R1" gate="R1" x="388.62" y="220.98" smashed="yes" rot="R90">
-<attribute name="NAME" x="387.096" y="220.98" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="390.144" y="220.98" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
+<instance part="R1" gate="R1" x="398.78" y="218.44" smashed="yes" rot="R90">
+<attribute name="NAME" x="397.256" y="218.44" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="400.304" y="218.44" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
-<instance part="R3" gate="R1" x="396.24" y="220.98" smashed="yes" rot="R90">
-<attribute name="NAME" x="394.716" y="220.98" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
-<attribute name="VALUE" x="397.764" y="220.98" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
+<instance part="R3" gate="R1" x="406.4" y="218.44" smashed="yes" rot="R90">
+<attribute name="NAME" x="404.876" y="218.44" size="1.778" layer="95" font="vector" rot="R90" align="bottom-center"/>
+<attribute name="VALUE" x="407.924" y="218.44" size="1.778" layer="96" font="vector" rot="R90" align="top-center"/>
 </instance>
-<instance part="GND13" gate="1" x="388.62" y="210.82" smashed="yes">
-<attribute name="VALUE" x="388.62" y="210.566" size="1.778" layer="96" align="top-center"/>
+<instance part="GND13" gate="1" x="398.78" y="208.28" smashed="yes">
+<attribute name="VALUE" x="398.78" y="208.026" size="1.778" layer="96" align="top-center"/>
 </instance>
-<instance part="GND14" gate="1" x="396.24" y="210.82" smashed="yes">
-<attribute name="VALUE" x="396.24" y="210.566" size="1.778" layer="96" align="top-center"/>
+<instance part="GND14" gate="1" x="406.4" y="208.28" smashed="yes">
+<attribute name="VALUE" x="406.4" y="208.026" size="1.778" layer="96" align="top-center"/>
 </instance>
 <instance part="C7" gate="G$1" x="266.7" y="246.38" smashed="yes" rot="R180">
 <attribute name="NAME" x="268.224" y="246.38" size="1.778" layer="95" font="vector"/>
@@ -32626,9 +32492,6 @@ but WS2812 max is 5.3V</text>
 <instance part="LOGO1" gate="G$1" x="334.772" y="40.64" smashed="yes"/>
 <instance part="SUPPLY6" gate="G$1" x="241.3" y="254" smashed="yes">
 <attribute name="VALUE" x="241.3" y="256.794" size="1.778" layer="96" align="bottom-center"/>
-</instance>
-<instance part="SUPPLY8" gate="G$1" x="406.4" y="226.06" smashed="yes">
-<attribute name="VALUE" x="406.4" y="228.854" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 <instance part="J2" gate="J1" x="33.02" y="40.64" smashed="yes">
 <attribute name="VALUE" x="28.194" y="33.02" size="1.778" layer="96" font="vector" rot="MR180" align="top-left"/>
@@ -32938,11 +32801,17 @@ but WS2812 max is 5.3V</text>
 <instance part="SUPPLY7" gate="G$1" x="7.62" y="160.02" smashed="yes">
 <attribute name="VALUE" x="7.62" y="162.814" size="1.778" layer="96" align="bottom-center"/>
 </instance>
-<instance part="JP3" gate="G$1" x="317.5" y="220.98" smashed="yes" rot="R90">
+<instance part="PWR" gate="G$1" x="317.5" y="220.98" smashed="yes" rot="R90">
 <attribute name="NAME" x="314.452" y="220.98" size="1.778" layer="95" font="vector" rot="R90" align="center"/>
 </instance>
 <instance part="TP4" gate="G$1" x="119.38" y="144.78" smashed="yes">
 <attribute name="NAME" x="117.348" y="145.034" size="1.778" layer="95" font="vector"/>
+</instance>
+<instance part="SHLD" gate="G$1" x="388.62" y="218.44" smashed="yes" rot="R270">
+<attribute name="NAME" x="391.668" y="218.44" size="1.778" layer="95" font="vector" rot="R270" align="center"/>
+</instance>
+<instance part="GND9" gate="1" x="388.62" y="208.28" smashed="yes">
+<attribute name="VALUE" x="388.62" y="208.026" size="1.778" layer="96" align="top-center"/>
 </instance>
 </instances>
 <busses>
@@ -32970,19 +32839,14 @@ but WS2812 max is 5.3V</text>
 <pinref part="J5" gate="J1" pin="GND"/>
 </segment>
 <segment>
-<wire x1="406.4" y1="215.9" x2="406.4" y2="213.36" width="0.1524" layer="91"/>
-<pinref part="C6" gate="G$1" pin="1"/>
-<pinref part="GND11" gate="1" pin="GND"/>
-</segment>
-<segment>
 <pinref part="R1" gate="R1" pin="1"/>
 <pinref part="GND13" gate="1" pin="GND"/>
-<wire x1="388.62" y1="213.36" x2="388.62" y2="215.9" width="0.1524" layer="91"/>
+<wire x1="398.78" y1="210.82" x2="398.78" y2="213.36" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="R3" gate="R1" pin="1"/>
 <pinref part="GND14" gate="1" pin="GND"/>
-<wire x1="396.24" y1="213.36" x2="396.24" y2="215.9" width="0.1524" layer="91"/>
+<wire x1="406.4" y1="210.82" x2="406.4" y2="213.36" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="GND"/>
@@ -33128,9 +32992,14 @@ but WS2812 max is 5.3V</text>
 <wire x1="7.62" y1="149.86" x2="7.62" y2="147.32" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="JP3" gate="G$1" pin="1"/>
+<pinref part="PWR" gate="G$1" pin="1"/>
 <pinref part="GND10" gate="1" pin="GND"/>
 <wire x1="317.5" y1="213.36" x2="317.5" y2="215.9" width="0.1524" layer="91"/>
+</segment>
+<segment>
+<pinref part="GND9" gate="1" pin="GND"/>
+<pinref part="SHLD" gate="G$1" pin="2"/>
+<wire x1="388.62" y1="210.82" x2="388.62" y2="213.36" width="0.1524" layer="91"/>
 </segment>
 </net>
 <net name="N$38" class="0">
@@ -33239,25 +33108,20 @@ but WS2812 max is 5.3V</text>
 <net name="N$9" class="0">
 <segment>
 <pinref part="R3" gate="R1" pin="2"/>
-<wire x1="378.46" y1="231.14" x2="396.24" y2="231.14" width="0.1524" layer="91"/>
-<wire x1="396.24" y1="231.14" x2="396.24" y2="226.06" width="0.1524" layer="91"/>
+<wire x1="378.46" y1="231.14" x2="406.4" y2="231.14" width="0.1524" layer="91"/>
+<wire x1="406.4" y1="231.14" x2="406.4" y2="223.52" width="0.1524" layer="91"/>
 <pinref part="J5" gate="J1" pin="CC1"/>
 </segment>
 </net>
 <net name="N$10" class="0">
 <segment>
 <pinref part="R1" gate="R1" pin="2"/>
-<wire x1="378.46" y1="228.6" x2="388.62" y2="228.6" width="0.1524" layer="91"/>
-<wire x1="388.62" y1="228.6" x2="388.62" y2="226.06" width="0.1524" layer="91"/>
+<wire x1="378.46" y1="228.6" x2="398.78" y2="228.6" width="0.1524" layer="91"/>
+<wire x1="398.78" y1="228.6" x2="398.78" y2="223.52" width="0.1524" layer="91"/>
 <pinref part="J5" gate="J1" pin="CC2"/>
 </segment>
 </net>
 <net name="V_USB" class="1">
-<segment>
-<wire x1="406.4" y1="226.06" x2="406.4" y2="223.52" width="0.1524" layer="91"/>
-<pinref part="C6" gate="G$1" pin="2"/>
-<pinref part="SUPPLY8" gate="G$1" pin="V_USB"/>
-</segment>
 <segment>
 <pinref part="F1" gate="F1" pin="1"/>
 <wire x1="243.84" y1="251.46" x2="241.3" y2="251.46" width="0.1524" layer="91"/>
@@ -33899,8 +33763,16 @@ but WS2812 max is 5.3V</text>
 <net name="N$3" class="0">
 <segment>
 <pinref part="LED1" gate="G$1" pin="C"/>
-<pinref part="JP3" gate="G$1" pin="2"/>
+<pinref part="PWR" gate="G$1" pin="2"/>
 <wire x1="317.5" y1="226.06" x2="317.5" y2="228.6" width="0.1524" layer="91"/>
+</segment>
+</net>
+<net name="SHLD" class="0">
+<segment>
+<pinref part="J5" gate="J1" pin="SHLD"/>
+<pinref part="SHLD" gate="G$1" pin="1"/>
+<wire x1="378.46" y1="226.06" x2="388.62" y2="226.06" width="0.1524" layer="91"/>
+<wire x1="388.62" y1="226.06" x2="388.62" y2="223.52" width="0.1524" layer="91"/>
 </segment>
 </net>
 </nets>
