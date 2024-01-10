@@ -32936,8 +32936,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <text x="213.36" y="218.44" size="1.778" layer="97" font="vector" align="center">Max Voltage Input: 5.5V</text>
 <text x="213.36" y="215.9" size="1.778" layer="97" font="vector" align="center">Max Current Output: 600mA</text>
 <text x="76.2" y="185.42" size="2.54" layer="94" font="vector" align="center">Raspberry Pi RP2350</text>
-<text x="203.2" y="71.12" size="2.54" layer="94" font="vector" align="center">16MB Flash</text>
-<text x="218.44" y="55.88" size="1.27" layer="97" align="center">Disable flash boot
+<text x="203.2" y="71.12" size="2.54" layer="94" font="vector" align="center">16MB Flash - W25Q128</text>
+<text x="218.44" y="55.88" size="1.27" layer="97" font="vector" align="center">Disable flash boot
 (forces USB boot)</text>
 <text x="203.2" y="185.42" size="2.54" layer="94" font="vector" align="center">Status LED</text>
 <text x="203.2" y="274.32" size="2.54" layer="94" font="vector" align="center">Power Select and 3.3V Regulator - RT9080</text>
@@ -33051,7 +33051,7 @@ to disconnect power LED</text>
 <attribute name="VALUE" x="167.64" y="246.634" size="1.778" layer="96" align="bottom-center"/>
 </instance>
 <instance part="J2" gate="J1" x="365.76" y="129.54" smashed="yes">
-<attribute name="VALUE" x="360.934" y="121.92" size="1.778" layer="96" font="vector" rot="MR180" align="top-left"/>
+<attribute name="VALUE" x="358.14" y="144.526" size="1.778" layer="96" font="vector" rot="MR270" align="top-left"/>
 <attribute name="NAME" x="360.68" y="137.668" size="1.778" layer="95" font="vector"/>
 </instance>
 <instance part="SUPPLY9" gate="G$1" x="114.3" y="246.38" smashed="yes">
@@ -33385,12 +33385,12 @@ to disconnect power LED</text>
 <net name="GND" class="0">
 <segment>
 <wire x1="365.76" y1="241.3" x2="368.3" y2="241.3" width="0.1524" layer="91"/>
-<label x="368.3" y="241.3" size="1.27" layer="95" xref="yes"/>
+<label x="368.3" y="241.3" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="J3" gate="G$1" pin="9"/>
 </segment>
 <segment>
 <wire x1="396.24" y1="246.38" x2="393.7" y2="246.38" width="0.1524" layer="91"/>
-<label x="393.7" y="246.38" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="393.7" y="246.38" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <pinref part="J4" gate="G$1" pin="2"/>
 </segment>
 <segment>
@@ -33444,7 +33444,7 @@ to disconnect power LED</text>
 </segment>
 <segment>
 <wire x1="365.76" y1="243.84" x2="368.3" y2="243.84" width="0.1524" layer="91"/>
-<label x="368.3" y="243.84" size="1.27" layer="95" xref="yes"/>
+<label x="368.3" y="243.84" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="J3" gate="G$1" pin="10"/>
 </segment>
 <segment>
@@ -33590,76 +33590,76 @@ to disconnect power LED</text>
 <pinref part="C7" gate="G$1" pin="2"/>
 <wire x1="193.04" y1="238.76" x2="193.04" y2="241.3" width="0.1524" layer="91"/>
 <wire x1="203.2" y1="241.3" x2="203.2" y2="243.84" width="0.1524" layer="91"/>
-<label x="203.2" y="243.84" size="1.27" layer="95" rot="R90" xref="yes"/>
+<label x="203.2" y="243.84" size="1.27" layer="95" font="vector" rot="R90" xref="yes"/>
 </segment>
 <segment>
 <wire x1="396.24" y1="248.92" x2="393.7" y2="248.92" width="0.1524" layer="91"/>
-<label x="393.7" y="248.92" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="393.7" y="248.92" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <pinref part="J4" gate="G$1" pin="1"/>
 </segment>
 <segment>
 <wire x1="203.2" y1="137.16" x2="203.2" y2="139.7" width="0.1524" layer="91"/>
-<label x="203.2" y="139.7" size="1.27" layer="95" rot="R90" xref="yes"/>
+<label x="203.2" y="139.7" size="1.27" layer="95" font="vector" rot="R90" xref="yes"/>
 <pinref part="U3" gate="G$1" pin="VCC"/>
 </segment>
 </net>
 <net name="A3" class="0">
 <segment>
 <wire x1="396.24" y1="238.76" x2="393.7" y2="238.76" width="0.1524" layer="91"/>
-<label x="393.7" y="238.76" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="393.7" y="238.76" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <pinref part="J4" gate="G$1" pin="5"/>
 </segment>
 <segment>
 <wire x1="93.98" y1="78.74" x2="96.52" y2="78.74" width="0.1524" layer="91"/>
-<label x="96.52" y="78.74" size="1.27" layer="95" xref="yes"/>
+<label x="96.52" y="78.74" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="U2" gate="G$1" pin="GPIO29/ADC3"/>
 </segment>
 </net>
 <net name="A2" class="0">
 <segment>
 <wire x1="396.24" y1="236.22" x2="393.7" y2="236.22" width="0.1524" layer="91"/>
-<label x="393.7" y="236.22" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="393.7" y="236.22" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <pinref part="J4" gate="G$1" pin="6"/>
 </segment>
 <segment>
 <wire x1="93.98" y1="81.28" x2="96.52" y2="81.28" width="0.1524" layer="91"/>
-<label x="96.52" y="81.28" size="1.27" layer="95" xref="yes"/>
+<label x="96.52" y="81.28" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="U2" gate="G$1" pin="GPIO28/ADC2"/>
 </segment>
 </net>
 <net name="A1" class="0">
 <segment>
 <wire x1="396.24" y1="233.68" x2="393.7" y2="233.68" width="0.1524" layer="91"/>
-<label x="393.7" y="233.68" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="393.7" y="233.68" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <pinref part="J4" gate="G$1" pin="7"/>
 </segment>
 <segment>
 <wire x1="93.98" y1="83.82" x2="96.52" y2="83.82" width="0.1524" layer="91"/>
-<label x="96.52" y="83.82" size="1.27" layer="95" xref="yes"/>
+<label x="96.52" y="83.82" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="U2" gate="G$1" pin="GPIO27/ADC1"/>
 </segment>
 </net>
 <net name="A0" class="0">
 <segment>
 <wire x1="396.24" y1="231.14" x2="393.7" y2="231.14" width="0.1524" layer="91"/>
-<label x="393.7" y="231.14" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="393.7" y="231.14" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <pinref part="J4" gate="G$1" pin="8"/>
 </segment>
 <segment>
 <wire x1="93.98" y1="86.36" x2="96.52" y2="86.36" width="0.1524" layer="91"/>
-<label x="96.52" y="86.36" size="1.27" layer="95" xref="yes"/>
+<label x="96.52" y="86.36" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="U2" gate="G$1" pin="GPIO26/ADC0"/>
 </segment>
 </net>
 <net name="1/RX0" class="0">
 <segment>
 <wire x1="365.76" y1="246.38" x2="368.3" y2="246.38" width="0.1524" layer="91"/>
-<label x="368.3" y="246.38" size="1.27" layer="95" xref="yes"/>
+<label x="368.3" y="246.38" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="J3" gate="G$1" pin="11"/>
 </segment>
 <segment>
 <wire x1="93.98" y1="149.86" x2="96.52" y2="149.86" width="0.1524" layer="91"/>
-<label x="96.52" y="149.86" size="1.27" layer="95" xref="yes"/>
+<label x="96.52" y="149.86" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="U2" gate="G$1" pin="GPIO1"/>
 </segment>
 </net>
@@ -33819,7 +33819,7 @@ to disconnect power LED</text>
 </segment>
 <segment>
 <wire x1="396.24" y1="241.3" x2="393.7" y2="241.3" width="0.1524" layer="91"/>
-<label x="393.7" y="241.3" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="393.7" y="241.3" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <pinref part="J4" gate="G$1" pin="4"/>
 </segment>
 <segment>
@@ -33836,7 +33836,7 @@ to disconnect power LED</text>
 <net name="!RESET!" class="0">
 <segment>
 <wire x1="58.42" y1="127" x2="55.88" y2="127" width="0.1524" layer="91"/>
-<label x="55.88" y="127" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="55.88" y="127" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <pinref part="U2" gate="G$1" pin="RUN"/>
 </segment>
 <segment>
@@ -33846,192 +33846,192 @@ to disconnect power LED</text>
 <wire x1="302.26" y1="132.08" x2="302.26" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="302.26" y1="132.08" x2="304.8" y2="132.08" width="0.1524" layer="91"/>
 <junction x="302.26" y="132.08"/>
-<label x="304.8" y="132.08" size="1.27" layer="95" xref="yes"/>
+<label x="304.8" y="132.08" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
 <wire x1="396.24" y1="243.84" x2="393.7" y2="243.84" width="0.1524" layer="91"/>
-<label x="393.7" y="243.84" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="393.7" y="243.84" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <pinref part="J4" gate="G$1" pin="3"/>
 </segment>
 </net>
 <net name="SWDIO" class="0">
 <segment>
 <wire x1="58.42" y1="104.14" x2="55.88" y2="104.14" width="0.1524" layer="91"/>
-<label x="55.88" y="104.14" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="55.88" y="104.14" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <pinref part="U2" gate="G$1" pin="SWDIO"/>
 </segment>
 <segment>
 <pinref part="TP2" gate="G$1" pin="1"/>
 <wire x1="292.1" y1="236.22" x2="289.56" y2="236.22" width="0.1524" layer="91"/>
-<label x="289.56" y="236.22" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="289.56" y="236.22" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="SWDCK" class="0">
 <segment>
 <wire x1="58.42" y1="106.68" x2="55.88" y2="106.68" width="0.1524" layer="91"/>
-<label x="55.88" y="106.68" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="55.88" y="106.68" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <pinref part="U2" gate="G$1" pin="SWCLK"/>
 </segment>
 <segment>
 <pinref part="TP1" gate="G$1" pin="1"/>
 <wire x1="292.1" y1="241.3" x2="289.56" y2="241.3" width="0.1524" layer="91"/>
-<label x="289.56" y="241.3" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="289.56" y="241.3" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 </net>
 <net name="22/SPI_SCK" class="0">
 <segment>
 <wire x1="93.98" y1="96.52" x2="96.52" y2="96.52" width="0.1524" layer="91"/>
-<label x="96.52" y="96.52" size="1.27" layer="95" xref="yes"/>
+<label x="96.52" y="96.52" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="U2" gate="G$1" pin="GPIO22"/>
 </segment>
 <segment>
 <wire x1="396.24" y1="228.6" x2="393.7" y2="228.6" width="0.1524" layer="91"/>
-<label x="393.7" y="228.6" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="393.7" y="228.6" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <pinref part="J4" gate="G$1" pin="9"/>
 </segment>
 </net>
 <net name="23/SPI_PICO" class="0">
 <segment>
 <wire x1="93.98" y1="93.98" x2="96.52" y2="93.98" width="0.1524" layer="91"/>
-<label x="96.52" y="93.98" size="1.27" layer="95" xref="yes"/>
+<label x="96.52" y="93.98" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="U2" gate="G$1" pin="GPIO23"/>
 </segment>
 <segment>
 <wire x1="396.24" y1="223.52" x2="393.7" y2="223.52" width="0.1524" layer="91"/>
-<label x="393.7" y="223.52" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="393.7" y="223.52" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <pinref part="J4" gate="G$1" pin="11"/>
 </segment>
 </net>
 <net name="8/TX1" class="0">
 <segment>
 <wire x1="93.98" y1="132.08" x2="96.52" y2="132.08" width="0.1524" layer="91"/>
-<label x="96.52" y="132.08" size="1.27" layer="95" xref="yes"/>
+<label x="96.52" y="132.08" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="U2" gate="G$1" pin="GPIO8"/>
 </segment>
 <segment>
 <wire x1="365.76" y1="223.52" x2="368.3" y2="223.52" width="0.1524" layer="91"/>
-<label x="368.3" y="223.52" size="1.27" layer="95" xref="yes"/>
+<label x="368.3" y="223.52" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="J3" gate="G$1" pin="2"/>
 </segment>
 </net>
 <net name="5" class="0">
 <segment>
 <wire x1="93.98" y1="139.7" x2="96.52" y2="139.7" width="0.1524" layer="91"/>
-<label x="96.52" y="139.7" size="1.27" layer="95" xref="yes"/>
+<label x="96.52" y="139.7" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="U2" gate="G$1" pin="GPIO5"/>
 </segment>
 <segment>
 <wire x1="365.76" y1="231.14" x2="368.3" y2="231.14" width="0.1524" layer="91"/>
-<label x="368.3" y="231.14" size="1.27" layer="95" xref="yes"/>
+<label x="368.3" y="231.14" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="J3" gate="G$1" pin="5"/>
 </segment>
 </net>
 <net name="4" class="0">
 <segment>
 <wire x1="93.98" y1="142.24" x2="96.52" y2="142.24" width="0.1524" layer="91"/>
-<label x="96.52" y="142.24" size="1.27" layer="95" xref="yes"/>
+<label x="96.52" y="142.24" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="U2" gate="G$1" pin="GPIO4"/>
 </segment>
 <segment>
 <wire x1="365.76" y1="233.68" x2="368.3" y2="233.68" width="0.1524" layer="91"/>
-<label x="368.3" y="233.68" size="1.27" layer="95" xref="yes"/>
+<label x="368.3" y="233.68" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="J3" gate="G$1" pin="6"/>
 </segment>
 </net>
 <net name="9/RX1" class="0">
 <segment>
 <wire x1="93.98" y1="129.54" x2="96.52" y2="129.54" width="0.1524" layer="91"/>
-<label x="96.52" y="129.54" size="1.27" layer="95" xref="yes"/>
+<label x="96.52" y="129.54" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="U2" gate="G$1" pin="GPIO9"/>
 </segment>
 <segment>
 <wire x1="365.76" y1="220.98" x2="368.3" y2="220.98" width="0.1524" layer="91"/>
-<label x="368.3" y="220.98" size="1.27" layer="95" xref="yes"/>
+<label x="368.3" y="220.98" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="J3" gate="G$1" pin="1"/>
 </segment>
 </net>
 <net name="6" class="0">
 <segment>
 <wire x1="93.98" y1="137.16" x2="96.52" y2="137.16" width="0.1524" layer="91"/>
-<label x="96.52" y="137.16" size="1.27" layer="95" xref="yes"/>
+<label x="96.52" y="137.16" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="U2" gate="G$1" pin="GPIO6"/>
 </segment>
 <segment>
 <wire x1="365.76" y1="228.6" x2="368.3" y2="228.6" width="0.1524" layer="91"/>
-<label x="368.3" y="228.6" size="1.27" layer="95" xref="yes"/>
+<label x="368.3" y="228.6" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="J3" gate="G$1" pin="4"/>
 </segment>
 </net>
 <net name="7" class="0">
 <segment>
 <wire x1="93.98" y1="134.62" x2="96.52" y2="134.62" width="0.1524" layer="91"/>
-<label x="96.52" y="134.62" size="1.27" layer="95" xref="yes"/>
+<label x="96.52" y="134.62" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="U2" gate="G$1" pin="GPIO7"/>
 </segment>
 <segment>
 <wire x1="365.76" y1="226.06" x2="368.3" y2="226.06" width="0.1524" layer="91"/>
-<label x="368.3" y="226.06" size="1.27" layer="95" xref="yes"/>
+<label x="368.3" y="226.06" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="J3" gate="G$1" pin="3"/>
 </segment>
 </net>
 <net name="20/SPI_POCI" class="0">
 <segment>
 <wire x1="93.98" y1="101.6" x2="96.52" y2="101.6" width="0.1524" layer="91"/>
-<label x="96.52" y="101.6" size="1.27" layer="95" xref="yes"/>
+<label x="96.52" y="101.6" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="U2" gate="G$1" pin="GPIO20"/>
 </segment>
 <segment>
 <wire x1="396.24" y1="226.06" x2="393.7" y2="226.06" width="0.1524" layer="91"/>
-<label x="393.7" y="226.06" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="393.7" y="226.06" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <pinref part="J4" gate="G$1" pin="10"/>
 </segment>
 </net>
 <net name="2" class="0">
 <segment>
 <wire x1="93.98" y1="147.32" x2="96.52" y2="147.32" width="0.1524" layer="91"/>
-<label x="96.52" y="147.32" size="1.27" layer="95" xref="yes"/>
+<label x="96.52" y="147.32" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="U2" gate="G$1" pin="GPIO2"/>
 </segment>
 <segment>
 <wire x1="365.76" y1="238.76" x2="368.3" y2="238.76" width="0.1524" layer="91"/>
-<label x="368.3" y="238.76" size="1.27" layer="95" xref="yes"/>
+<label x="368.3" y="238.76" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="J3" gate="G$1" pin="8"/>
 </segment>
 </net>
 <net name="3" class="0">
 <segment>
 <wire x1="93.98" y1="144.78" x2="96.52" y2="144.78" width="0.1524" layer="91"/>
-<label x="96.52" y="144.78" size="1.27" layer="95" xref="yes"/>
+<label x="96.52" y="144.78" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="U2" gate="G$1" pin="GPIO3"/>
 </segment>
 <segment>
 <wire x1="365.76" y1="236.22" x2="368.3" y2="236.22" width="0.1524" layer="91"/>
-<label x="368.3" y="236.22" size="1.27" layer="95" xref="yes"/>
+<label x="368.3" y="236.22" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="J3" gate="G$1" pin="7"/>
 </segment>
 </net>
 <net name="21/SPI_!CS!" class="0">
 <segment>
 <wire x1="93.98" y1="99.06" x2="96.52" y2="99.06" width="0.1524" layer="91"/>
-<label x="96.52" y="99.06" size="1.27" layer="95" xref="yes"/>
+<label x="96.52" y="99.06" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="U2" gate="G$1" pin="GPIO21"/>
 </segment>
 <segment>
 <wire x1="396.24" y1="220.98" x2="393.7" y2="220.98" width="0.1524" layer="91"/>
-<label x="393.7" y="220.98" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="393.7" y="220.98" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <pinref part="J4" gate="G$1" pin="12"/>
 </segment>
 </net>
 <net name="17/SCL" class="0">
 <segment>
 <wire x1="93.98" y1="109.22" x2="96.52" y2="109.22" width="0.1524" layer="91"/>
-<label x="96.52" y="109.22" size="1.27" layer="95" xref="yes"/>
+<label x="96.52" y="109.22" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="U2" gate="G$1" pin="GPIO17"/>
 </segment>
 <segment>
 <pinref part="J2" gate="J1" pin="4"/>
 <wire x1="373.38" y1="134.62" x2="383.54" y2="134.62" width="0.1524" layer="91"/>
-<label x="393.7" y="134.62" size="1.27" layer="95" xref="yes"/>
+<label x="393.7" y="134.62" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="R7" gate="G$1" pin="1"/>
 <wire x1="383.54" y1="134.62" x2="393.7" y2="134.62" width="0.1524" layer="91"/>
 <wire x1="383.54" y1="137.16" x2="383.54" y2="134.62" width="0.1524" layer="91"/>
@@ -34041,13 +34041,13 @@ to disconnect power LED</text>
 <net name="16/SDA" class="0">
 <segment>
 <wire x1="93.98" y1="111.76" x2="96.52" y2="111.76" width="0.1524" layer="91"/>
-<label x="96.52" y="111.76" size="1.27" layer="95" xref="yes"/>
+<label x="96.52" y="111.76" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="U2" gate="G$1" pin="GPIO16"/>
 </segment>
 <segment>
 <pinref part="J2" gate="J1" pin="3"/>
 <wire x1="373.38" y1="132.08" x2="391.16" y2="132.08" width="0.1524" layer="91"/>
-<label x="393.7" y="132.08" size="1.27" layer="95" xref="yes"/>
+<label x="393.7" y="132.08" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="R5" gate="G$1" pin="1"/>
 <wire x1="391.16" y1="132.08" x2="393.7" y2="132.08" width="0.1524" layer="91"/>
 <wire x1="391.16" y1="137.16" x2="391.16" y2="132.08" width="0.1524" layer="91"/>
@@ -34057,12 +34057,12 @@ to disconnect power LED</text>
 <net name="QSPI-CS" class="0">
 <segment>
 <wire x1="58.42" y1="86.36" x2="55.88" y2="86.36" width="0.1524" layer="91"/>
-<label x="55.88" y="86.36" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="55.88" y="86.36" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <pinref part="U2" gate="G$1" pin="QSPI_!CS!"/>
 </segment>
 <segment>
 <wire x1="215.9" y1="30.48" x2="218.44" y2="30.48" width="0.1524" layer="91"/>
-<label x="228.6" y="30.48" size="1.27" layer="95" xref="yes"/>
+<label x="228.6" y="30.48" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="U4" gate="U1" pin="!CS!"/>
 <pinref part="R15" gate="G$1" pin="1"/>
 <wire x1="218.44" y1="30.48" x2="226.06" y2="30.48" width="0.1524" layer="91"/>
@@ -34077,36 +34077,36 @@ to disconnect power LED</text>
 <net name="QSPI-CLK" class="0">
 <segment>
 <wire x1="58.42" y1="88.9" x2="55.88" y2="88.9" width="0.1524" layer="91"/>
-<label x="55.88" y="88.9" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="55.88" y="88.9" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <pinref part="U2" gate="G$1" pin="QSPI_SCLK"/>
 </segment>
 <segment>
 <wire x1="215.9" y1="27.94" x2="218.44" y2="27.94" width="0.1524" layer="91"/>
-<label x="218.44" y="27.94" size="1.27" layer="95" xref="yes"/>
+<label x="218.44" y="27.94" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="U4" gate="U1" pin="CLK"/>
 </segment>
 </net>
 <net name="QSPI-0" class="0">
 <segment>
 <wire x1="58.42" y1="99.06" x2="55.88" y2="99.06" width="0.1524" layer="91"/>
-<label x="55.88" y="99.06" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="55.88" y="99.06" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <pinref part="U2" gate="G$1" pin="QSPI_SD0"/>
 </segment>
 <segment>
 <wire x1="215.9" y1="25.4" x2="218.44" y2="25.4" width="0.1524" layer="91"/>
-<label x="218.44" y="25.4" size="1.27" layer="95" xref="yes"/>
+<label x="218.44" y="25.4" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="U4" gate="U1" pin="D0/DI"/>
 </segment>
 </net>
 <net name="QSPI-3" class="0">
 <segment>
 <wire x1="58.42" y1="91.44" x2="55.88" y2="91.44" width="0.1524" layer="91"/>
-<label x="55.88" y="91.44" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="55.88" y="91.44" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <pinref part="U2" gate="G$1" pin="QSPI_SD3"/>
 </segment>
 <segment>
 <wire x1="215.9" y1="17.78" x2="218.44" y2="17.78" width="0.1524" layer="91"/>
-<label x="218.44" y="17.78" size="1.27" layer="95" xref="yes"/>
+<label x="218.44" y="17.78" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="U4" gate="U1" pin="D3/!HOLD!"/>
 </segment>
 </net>
@@ -34196,36 +34196,36 @@ to disconnect power LED</text>
 <net name="QSPI-1" class="0">
 <segment>
 <wire x1="58.42" y1="96.52" x2="55.88" y2="96.52" width="0.1524" layer="91"/>
-<label x="55.88" y="96.52" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="55.88" y="96.52" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <pinref part="U2" gate="G$1" pin="QSPI_SD1"/>
 </segment>
 <segment>
 <wire x1="215.9" y1="22.86" x2="218.44" y2="22.86" width="0.1524" layer="91"/>
-<label x="218.44" y="22.86" size="1.27" layer="95" xref="yes"/>
+<label x="218.44" y="22.86" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="U4" gate="U1" pin="D1/DO"/>
 </segment>
 </net>
 <net name="QSPI-2" class="0">
 <segment>
 <wire x1="58.42" y1="93.98" x2="55.88" y2="93.98" width="0.1524" layer="91"/>
-<label x="55.88" y="93.98" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="55.88" y="93.98" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <pinref part="U2" gate="G$1" pin="QSPI_SD2"/>
 </segment>
 <segment>
 <wire x1="215.9" y1="20.32" x2="218.44" y2="20.32" width="0.1524" layer="91"/>
-<label x="218.44" y="20.32" size="1.27" layer="95" xref="yes"/>
+<label x="218.44" y="20.32" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="U4" gate="U1" pin="D2/!WP!"/>
 </segment>
 </net>
 <net name="0/TX0" class="0">
 <segment>
 <wire x1="93.98" y1="152.4" x2="96.52" y2="152.4" width="0.1524" layer="91"/>
-<label x="96.52" y="152.4" size="1.27" layer="95" xref="yes"/>
+<label x="96.52" y="152.4" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="U2" gate="G$1" pin="GPIO0"/>
 </segment>
 <segment>
 <wire x1="365.76" y1="248.92" x2="368.3" y2="248.92" width="0.1524" layer="91"/>
-<label x="368.3" y="248.92" size="1.27" layer="95" xref="yes"/>
+<label x="368.3" y="248.92" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="J3" gate="G$1" pin="12"/>
 </segment>
 </net>
@@ -34233,12 +34233,12 @@ to disconnect power LED</text>
 <segment>
 <pinref part="R13" gate="G$1" pin="1"/>
 <wire x1="45.72" y1="121.92" x2="43.18" y2="121.92" width="0.1524" layer="91"/>
-<label x="43.18" y="121.92" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="43.18" y="121.92" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <wire x1="48.26" y1="246.38" x2="50.8" y2="246.38" width="0.1524" layer="91"/>
 <pinref part="J5" gate="J1" pin="D+"/>
-<label x="50.8" y="246.38" size="1.27" layer="95" xref="yes"/>
+<label x="50.8" y="246.38" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
 <pinref part="JP14" gate="JP1" pin="3"/>
@@ -34250,12 +34250,12 @@ to disconnect power LED</text>
 <segment>
 <pinref part="R12" gate="G$1" pin="1"/>
 <wire x1="45.72" y1="119.38" x2="43.18" y2="119.38" width="0.1524" layer="91"/>
-<label x="43.18" y="119.38" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="43.18" y="119.38" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 </segment>
 <segment>
 <wire x1="48.26" y1="243.84" x2="50.8" y2="243.84" width="0.1524" layer="91"/>
 <pinref part="J5" gate="J1" pin="D-"/>
-<label x="50.8" y="243.84" size="1.27" layer="95" xref="yes"/>
+<label x="50.8" y="243.84" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
 <pinref part="JP14" gate="JP1" pin="2"/>
@@ -34265,7 +34265,7 @@ to disconnect power LED</text>
 </net>
 <net name="BOOT" class="0">
 <segment>
-<label x="218.44" y="45.72" size="1.27" layer="95" rot="MR90" xref="yes"/>
+<label x="218.44" y="45.72" size="1.27" layer="95" font="vector" rot="MR90" xref="yes"/>
 <pinref part="R15" gate="G$1" pin="2"/>
 <wire x1="218.44" y1="43.18" x2="218.44" y2="45.72" width="0.1524" layer="91"/>
 </segment>
@@ -34273,7 +34273,7 @@ to disconnect power LED</text>
 <pinref part="S2" gate="G$1" pin="2"/>
 <wire x1="281.94" y1="132.08" x2="281.94" y2="129.54" width="0.1524" layer="91"/>
 <wire x1="281.94" y1="132.08" x2="284.48" y2="132.08" width="0.1524" layer="91"/>
-<label x="284.48" y="132.08" size="1.27" layer="95" xref="yes"/>
+<label x="284.48" y="132.08" size="1.27" layer="95" font="vector" xref="yes"/>
 </segment>
 <segment>
 <pinref part="TP4" gate="G$1" pin="1"/>
@@ -34284,12 +34284,12 @@ to disconnect power LED</text>
 <net name="25/WS2812-DI" class="0">
 <segment>
 <wire x1="93.98" y1="88.9" x2="96.52" y2="88.9" width="0.1524" layer="91"/>
-<label x="96.52" y="88.9" size="1.27" layer="95" xref="yes"/>
+<label x="96.52" y="88.9" size="1.27" layer="95" font="vector" xref="yes"/>
 <pinref part="U2" gate="G$1" pin="GPIO25"/>
 </segment>
 <segment>
 <wire x1="193.04" y1="129.54" x2="190.5" y2="129.54" width="0.1524" layer="91"/>
-<label x="190.5" y="129.54" size="1.27" layer="95" rot="R180" xref="yes"/>
+<label x="190.5" y="129.54" size="1.27" layer="95" font="vector" rot="R180" xref="yes"/>
 <pinref part="U3" gate="G$1" pin="DI"/>
 </segment>
 </net>
