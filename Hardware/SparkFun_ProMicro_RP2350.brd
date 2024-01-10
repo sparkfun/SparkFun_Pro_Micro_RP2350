@@ -7,7 +7,7 @@
 <setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
-<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.001" altunitdist="inch" altunit="inch"/>
+<grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
 <layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
 <layer number="2" name="GND/Vert" color="23" fill="1" visible="yes" active="yes"/>
@@ -7478,10 +7478,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="PROD_ID" value="RES-15238" x="-21.336" y="30.861" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
 <attribute name="VALUE" x="12.392" y="24.511" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
-<element name="C20" library="SparkFun-Capacitors" package="0402-TIGHT" value="10uF" x="12.7" y="17.907" smashed="yes" rot="R270">
-<attribute name="NAME" x="13.262" y="17.907" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
-<attribute name="PROD_ID" value="CAP-14848" x="-29.21" y="20.447" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
-<attribute name="VALUE" value="10uF" x="12.138" y="17.907" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
+<element name="C20" library="SparkFun-Capacitors" package="0402-TIGHT" value="10uF" x="12.827" y="17.907" smashed="yes" rot="R270">
+<attribute name="NAME" x="13.389" y="17.907" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
+<attribute name="PROD_ID" value="CAP-14848" x="-29.083" y="20.447" size="1.778" layer="27" font="vector" ratio="15" rot="R270" display="off"/>
+<attribute name="VALUE" value="10uF" x="12.265" y="17.907" size="0.6096" layer="27" font="vector" ratio="20" rot="R270" align="top-center"/>
 </element>
 <element name="C21" library="SparkFun-Capacitors" package="0402-TIGHT" value="10uF" x="10.922" y="16.002" smashed="yes">
 <attribute name="NAME" x="10.922" y="16.564" size="0.6096" layer="25" font="vector" ratio="20" align="bottom-center"/>
@@ -7598,10 +7598,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <attribute name="NAME" x="8.89" y="13.589" size="0.6096" layer="25" align="center"/>
 <attribute name="VALUE" x="8.89" y="9.13" size="0.6096" layer="27" align="center"/>
 </element>
-<element name="C1" library="SparkFun-Capacitors" package="0402-TIGHT" value="0.1uF" x="13.843" y="11.811" smashed="yes" rot="R90">
-<attribute name="NAME" x="13.281" y="11.811" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
-<attribute name="PROD_ID" value="CAP-14993" x="13.843" y="13.081" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
-<attribute name="VALUE" x="14.405" y="11.811" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
+<element name="C1" library="SparkFun-Capacitors" package="0402-TIGHT" value="0.1uF" x="13.843" y="11.938" smashed="yes" rot="R90">
+<attribute name="NAME" x="13.281" y="11.938" size="0.6096" layer="25" font="vector" ratio="20" rot="R90" align="bottom-center"/>
+<attribute name="PROD_ID" value="CAP-14993" x="13.843" y="13.208" size="1.778" layer="27" font="vector" ratio="15" rot="R90" display="off"/>
+<attribute name="VALUE" x="14.405" y="11.938" size="0.6096" layer="27" font="vector" ratio="20" rot="R90" align="top-center"/>
 </element>
 <element name="L1" library="SparkFun-Coils" package="1008(2520)" value="4.7μH" x="11.176" y="17.907" smashed="yes" rot="R270">
 <attribute name="NAME" x="11.938" y="17.907" size="0.6096" layer="25" font="vector" ratio="20" rot="R270" align="bottom-center"/>
@@ -7742,10 +7742,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <vertex x="11.2522" y="14.1224"/>
 <vertex x="11.2522" y="16.2306"/>
 <vertex x="12.065" y="16.2306"/>
-<vertex x="12.3698" y="16.5354"/>
-<vertex x="12.3698" y="17.653"/>
-<vertex x="12.9286" y="17.653"/>
-<vertex x="12.9286" y="15.875"/>
+<vertex x="12.4968" y="16.6624"/>
+<vertex x="12.4968" y="17.653"/>
+<vertex x="13.0556" y="17.653"/>
+<vertex x="13.0556" y="16.002"/>
 <vertex x="12.7254" y="15.6718"/>
 <vertex x="11.7094" y="15.6718"/>
 <vertex x="11.3284" y="15.2908"/>
@@ -7795,7 +7795,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <via x="14.1986" y="23.3934" extent="1-16" drill="0.2"/>
 <via x="14.1986" y="27.94" extent="1-16" drill="0.2"/>
 <via x="8.89" y="23.0886" extent="1-16" drill="0.2"/>
-<via x="12.5349" y="16.764" extent="1-16" drill="0.2"/>
+<via x="12.573" y="16.637" extent="1-16" drill="0.2"/>
 <via x="13.5001" y="17.5514" extent="1-16" drill="0.2"/>
 <via x="9.9187" y="20.0152" extent="1-16" drill="0.2"/>
 </signal>
@@ -7848,10 +7848,10 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="15.494" y1="19.05" x2="16.51" y2="19.05" width="0.127" layer="1"/>
 <wire x1="18.08" y1="19.05" x2="16.51" y2="19.05" width="0.127" layer="1"/>
 <contactref element="U2" pad="43"/>
-<wire x1="14.4714" y1="13.5824" x2="12.9869" y2="13.5824" width="0.127" layer="1"/>
-<wire x1="12.9869" y1="13.5824" x2="12.8345" y2="13.43" width="0.127" layer="1"/>
-<wire x1="12.3265" y1="13.43" x2="12.8345" y2="13.43" width="0.127" layer="1"/>
-<wire x1="14.4714" y1="13.5824" x2="14.986" y2="14.097" width="0.127" layer="1"/>
+<wire x1="14.5984" y1="13.7094" x2="12.9869" y2="13.7094" width="0.127" layer="1"/>
+<wire x1="12.9869" y1="13.7094" x2="12.7075" y2="13.43" width="0.127" layer="1"/>
+<wire x1="12.3265" y1="13.43" x2="12.7075" y2="13.43" width="0.127" layer="1"/>
+<wire x1="14.5984" y1="13.7094" x2="14.986" y2="14.097" width="0.127" layer="1"/>
 </signal>
 <signal name="A2">
 <contactref element="J4" pad="6"/>
@@ -7861,19 +7861,19 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="15.2146" y1="13.92610625" x2="15.2146" y2="16.1036" width="0.127" layer="1"/>
 <wire x1="18.08" y1="16.51" x2="16.51" y2="16.51" width="0.127" layer="1"/>
 <contactref element="U2" pad="42"/>
-<wire x1="14.62329375" y1="13.3348" x2="13.1393" y2="13.3348" width="0.127" layer="1"/>
-<wire x1="13.1393" y1="13.3348" x2="12.8345" y2="13.03" width="0.127" layer="1"/>
-<wire x1="12.3265" y1="13.03" x2="12.8345" y2="13.03" width="0.127" layer="1"/>
-<wire x1="14.62329375" y1="13.3348" x2="15.2146" y2="13.92610625" width="0.127" layer="1"/>
+<wire x1="14.75029375" y1="13.4618" x2="13.1393" y2="13.4618" width="0.127" layer="1"/>
+<wire x1="13.1393" y1="13.4618" x2="12.7075" y2="13.03" width="0.127" layer="1"/>
+<wire x1="12.3265" y1="13.03" x2="12.7075" y2="13.03" width="0.127" layer="1"/>
+<wire x1="14.75029375" y1="13.4618" x2="15.2146" y2="13.92610625" width="0.127" layer="1"/>
 </signal>
 <signal name="A1">
 <contactref element="J4" pad="7"/>
 <contactref element="J4" pad="7B"/>
 <wire x1="16.51" y1="13.97" x2="15.621" y2="13.97" width="0.127" layer="1"/>
-<wire x1="15.621" y1="13.97" x2="14.7382" y2="13.0872" width="0.127" layer="1"/>
-<wire x1="14.7382" y1="13.0872" x2="13.2917" y2="13.0872" width="0.127" layer="1"/>
-<wire x1="13.2917" y1="13.0872" x2="12.8345" y2="12.63" width="0.127" layer="1"/>
-<wire x1="12.8345" y1="12.63" x2="12.3265" y2="12.63" width="0.127" layer="1"/>
+<wire x1="15.621" y1="13.97" x2="14.8652" y2="13.2142" width="0.127" layer="1"/>
+<wire x1="14.8652" y1="13.2142" x2="13.2663" y2="13.2142" width="0.127" layer="1"/>
+<wire x1="13.2663" y1="13.2142" x2="12.6821" y2="12.63" width="0.127" layer="1"/>
+<wire x1="12.6821" y1="12.63" x2="12.3265" y2="12.63" width="0.127" layer="1"/>
 <wire x1="18.08" y1="13.97" x2="16.51" y2="13.97" width="0.127" layer="1"/>
 <contactref element="U2" pad="41"/>
 </signal>
@@ -7882,13 +7882,13 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <contactref element="J4" pad="8B"/>
 <wire x1="18.08" y1="11.43" x2="16.51" y2="11.43" width="0.127" layer="1"/>
 <contactref element="U2" pad="40"/>
-<wire x1="14.9734" y1="12.8396" x2="13.4695" y2="12.8396" width="0.127" layer="1"/>
-<wire x1="12.3265" y1="12.23" x2="12.8599" y2="12.23" width="0.127" layer="1"/>
-<wire x1="13.4695" y1="12.8396" x2="12.8599" y2="12.23" width="0.127" layer="1"/>
+<wire x1="14.8464" y1="12.9666" x2="13.4441" y2="12.9666" width="0.127" layer="1"/>
+<wire x1="12.3265" y1="12.23" x2="12.7075" y2="12.23" width="0.127" layer="1"/>
+<wire x1="13.4441" y1="12.9666" x2="12.7075" y2="12.23" width="0.127" layer="1"/>
 <wire x1="15.24" y1="12.573" x2="15.24" y2="11.684" width="0.127" layer="1"/>
 <wire x1="15.494" y1="11.43" x2="16.51" y2="11.43" width="0.127" layer="1"/>
 <wire x1="15.494" y1="11.43" x2="15.24" y2="11.684" width="0.127" layer="1"/>
-<wire x1="15.24" y1="12.573" x2="14.9734" y2="12.8396" width="0.127" layer="1"/>
+<wire x1="15.24" y1="12.573" x2="14.8464" y2="12.9666" width="0.127" layer="1"/>
 </signal>
 <signal name="1/RX0">
 <contactref element="J3" pad="11"/>
@@ -8482,21 +8482,21 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <wire x1="10.922" y1="14.097" x2="10.922" y2="12.192" width="0.2032" layer="2"/>
 <wire x1="11.43" y1="11.684" x2="10.922" y2="12.192" width="0.2032" layer="2"/>
 <contactref element="C1" pad="1"/>
-<wire x1="13.843" y1="11.311" x2="13.324" y2="11.83" width="0.2032" layer="1"/>
-<wire x1="13.324" y1="11.83" x2="12.3265" y2="11.83" width="0.2032" layer="1"/>
+<wire x1="13.843" y1="11.438" x2="13.451" y2="11.83" width="0.2032" layer="1"/>
+<wire x1="13.451" y1="11.83" x2="12.3265" y2="11.83" width="0.2032" layer="1"/>
 <contactref element="L1" pad="1"/>
 <wire x1="10.09" y1="14.8665" x2="10.09" y2="15.3187375" width="0.2032" layer="1"/>
 <wire x1="10.09" y1="15.3187375" x2="9.8298" y2="15.5789375" width="0.2032" layer="1"/>
 <wire x1="9.8298" y1="19.2278" x2="10.16" y2="19.558" width="0.3048" layer="1"/>
 <wire x1="9.8298" y1="15.5789375" x2="9.8298" y2="19.2278" width="0.3048" layer="1"/>
 <wire x1="10.16" y1="19.558" x2="12.446" y2="19.558" width="0.3048" layer="1"/>
-<wire x1="12.7" y1="18.407" x2="12.7" y2="19.304" width="0.3048" layer="1"/>
-<wire x1="12.7" y1="19.304" x2="12.446" y2="19.558" width="0.3048" layer="1"/>
+<wire x1="12.827" y1="18.407" x2="12.827" y2="19.177" width="0.3048" layer="1"/>
+<wire x1="12.827" y1="19.177" x2="12.446" y2="19.558" width="0.3048" layer="1"/>
 <polygon width="0.127" layer="1" isolate="0.127" thermals="no">
 <vertex x="10.2108" y="19.1008"/>
 <vertex x="10.2108" y="18.161"/>
-<vertex x="12.9032" y="18.161"/>
-<vertex x="12.9032" y="18.6436"/>
+<vertex x="13.0302" y="18.161"/>
+<vertex x="13.0302" y="18.6436"/>
 <vertex x="12.0396" y="18.6436"/>
 <vertex x="12.0396" y="19.1008"/>
 </polygon>
