@@ -32524,7 +32524,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <connect gate="G$1" pin="XOUT" pad="22"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="PROD_ID" value="IC-21276"/>
+</technology>
 </technologies>
 </device>
 </devices>

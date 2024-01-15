@@ -7925,6 +7925,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <element name="U$40" library="output" package="DO0" value="" x="14.986" y="31.623" smashed="yes" rot="MR270"/>
 <element name="U2" library="RP2350A" package="RP2350A" value="RP2350A" x="8.89" y="11.43" smashed="yes">
 <attribute name="NAME" x="8.89" y="13.589" size="0.6096" layer="25" align="center"/>
+<attribute name="PROD_ID" value="IC-21276" x="8.89" y="11.43" size="1.778" layer="27" display="off"/>
 <attribute name="VALUE" x="8.89" y="9.13" size="0.6096" layer="27" align="center"/>
 </element>
 <element name="C1" library="SparkFun-Capacitors" package="0402-TIGHT" value="0.1uF" x="13.843" y="11.938" smashed="yes" rot="R90">
