@@ -9,17 +9,17 @@
 </settings>
 <grid distance="0.05" unitdist="inch" unit="inch" style="lines" multiple="1" display="yes" altdistance="0.005" altunitdist="inch" altunit="inch"/>
 <layers>
-<layer number="1" name="Top" color="4" fill="1" visible="no" active="yes"/>
-<layer number="2" name="GND/Vert" color="23" fill="1" visible="no" active="yes"/>
-<layer number="15" name="3.3V/Horz" color="63" fill="1" visible="no" active="yes"/>
+<layer number="1" name="Top" color="4" fill="1" visible="yes" active="yes"/>
+<layer number="2" name="GND/Vert" color="23" fill="1" visible="yes" active="yes"/>
+<layer number="15" name="3.3V/Horz" color="63" fill="1" visible="yes" active="yes"/>
 <layer number="16" name="Bottom" color="1" fill="1" visible="yes" active="yes"/>
 <layer number="17" name="Pads" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="18" name="Vias" color="2" fill="1" visible="yes" active="yes"/>
 <layer number="19" name="Unrouted" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="20" name="Dimension" color="24" fill="1" visible="yes" active="yes"/>
-<layer number="21" name="tPlace" color="16" fill="1" visible="no" active="yes"/>
+<layer number="21" name="tPlace" color="16" fill="1" visible="yes" active="yes"/>
 <layer number="22" name="bPlace" color="14" fill="1" visible="yes" active="yes"/>
-<layer number="23" name="tOrigins" color="15" fill="1" visible="no" active="yes"/>
+<layer number="23" name="tOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="24" name="bOrigins" color="15" fill="1" visible="yes" active="yes"/>
 <layer number="25" name="tNames" color="7" fill="1" visible="no" active="yes"/>
 <layer number="26" name="bNames" color="7" fill="1" visible="no" active="yes"/>
@@ -35,9 +35,9 @@
 <layer number="36" name="bGlue" color="7" fill="5" visible="no" active="yes"/>
 <layer number="37" name="tTest" color="7" fill="1" visible="no" active="yes"/>
 <layer number="38" name="bTest" color="7" fill="1" visible="no" active="yes"/>
-<layer number="39" name="tKeepout" color="4" fill="11" visible="no" active="yes"/>
+<layer number="39" name="tKeepout" color="4" fill="11" visible="yes" active="yes"/>
 <layer number="40" name="bKeepout" color="1" fill="11" visible="yes" active="yes"/>
-<layer number="41" name="tRestrict" color="4" fill="10" visible="no" active="yes"/>
+<layer number="41" name="tRestrict" color="4" fill="10" visible="yes" active="yes"/>
 <layer number="42" name="bRestrict" color="1" fill="10" visible="yes" active="yes"/>
 <layer number="43" name="vRestrict" color="2" fill="10" visible="yes" active="yes"/>
 <layer number="44" name="Drills" color="7" fill="1" visible="no" active="yes"/>
@@ -47,7 +47,7 @@
 <layer number="48" name="Document" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="49" name="Reference" color="13" fill="1" visible="yes" active="yes"/>
 <layer number="50" name="dxf" color="7" fill="1" visible="no" active="yes"/>
-<layer number="51" name="tDocu" color="6" fill="1" visible="no" active="yes"/>
+<layer number="51" name="tDocu" color="6" fill="1" visible="yes" active="yes"/>
 <layer number="52" name="bDocu" color="7" fill="1" visible="yes" active="yes"/>
 <layer number="91" name="Nets" color="2" fill="1" visible="no" active="no"/>
 <layer number="92" name="Busses" color="1" fill="1" visible="no" active="no"/>
@@ -250,6 +250,7 @@ Castellated Leads</text>
 <wire x1="5.715" y1="1.778" x2="5.461" y2="1.778" width="0.1524" layer="22"/>
 <circle x="6.223" y="0.762" radius="0.127" width="0.1524" layer="22"/>
 <circle x="5.207" y="0.762" radius="0.127" width="0.1524" layer="22"/>
+<circle x="4.894" y="5.318" radius="0.161553125" width="0" layer="21"/>
 </plain>
 <libraries>
 <library name="SparkFun-Aesthetics">
@@ -7956,8 +7957,8 @@ You are welcome to use this library for commercial purposes. For attribution, we
 </element>
 <element name="U$43" library="output" package="#SHLD#0" value="" x="11.43" y="25.146" smashed="yes" rot="MR270"/>
 <element name="U$36" library="output" package="#P#0" value="" x="3.302" y="30.353" smashed="yes" rot="MR0"/>
-<element name="U$41" library="output" package="BOOT0" value="" x="5.715" y="2.54" smashed="yes" rot="MR0"/>
-<element name="U$44" library="output" package="RST0" value="" x="12.065" y="2.54" smashed="yes" rot="MR0"/>
+<element name="U$41" library="output" package="BOOT0" value="" x="5.588" y="2.54" smashed="yes" rot="MR0"/>
+<element name="U$44" library="output" package="RST0" value="" x="11.938" y="2.54" smashed="yes" rot="MR0"/>
 </elements>
 <signals>
 <signal name="GND">
