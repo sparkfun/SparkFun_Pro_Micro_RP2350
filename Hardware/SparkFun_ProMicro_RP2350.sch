@@ -32915,7 +32915,9 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <connect gate="G$1" pin="VSS" pad="4 9"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="PROD_ID" value="IC-21870"/>
+</technology>
 </technologies>
 </device>
 </devices>
@@ -33300,7 +33302,7 @@ You are welcome to use this library for commercial purposes. For attribution, we
 <part name="GND4" library="SparkFun-PowerSymbols" deviceset="GND" device=""/>
 <part name="FRAME2" library="SparkFun-Aesthetics" deviceset="FRAME-LEDGER" device="">
 <attribute name="DESIGNER" value="Dryw Wade"/>
-<attribute name="REV" value="v09"/>
+<attribute name="REV" value="v02"/>
 </part>
 <part name="TP3" library="SparkFun-Connectors" deviceset="TEST-POINT" device="3X5" value="TEST-POINT3X5"/>
 <part name="U2" library="RP2350A" deviceset="RP2350A" device=""/>

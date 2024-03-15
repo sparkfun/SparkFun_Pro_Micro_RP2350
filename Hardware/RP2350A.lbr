@@ -579,7 +579,9 @@
 <connect gate="G$1" pin="VSS" pad="4 9"/>
 </connects>
 <technologies>
-<technology name=""/>
+<technology name="">
+<attribute name="PROD_ID" value="IC-21870"/>
+</technology>
 </technologies>
 </device>
 </devices>
