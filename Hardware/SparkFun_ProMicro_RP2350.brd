@@ -250,7 +250,6 @@ Castellated Leads</text>
 <wire x1="5.715" y1="1.778" x2="5.461" y2="1.778" width="0.1524" layer="22"/>
 <circle x="6.223" y="0.762" radius="0.127" width="0.1524" layer="22"/>
 <circle x="5.207" y="0.762" radius="0.127" width="0.1524" layer="22"/>
-<circle x="4.894" y="6.588" radius="0.161553125" width="0" layer="21"/>
 <wire x1="8.89" y1="8.128" x2="8.89" y2="6.604" width="0.1524" layer="21"/>
 <wire x1="13.208" y1="8.0645" x2="13.208" y2="6.5405" width="0.1524" layer="21"/>
 <wire x1="10.287" y1="7.366" x2="11.811" y2="7.366" width="0.1524" layer="21"/>
