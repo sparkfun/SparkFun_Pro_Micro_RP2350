@@ -34753,9 +34753,10 @@ to disconnect power LED</text>
 </net>
 <net name="BOOT" class="0">
 <segment>
-<label x="218.44" y="45.72" size="1.27" layer="95" font="vector" rot="MR90" xref="yes"/>
+<label x="215.9" y="45.72" size="1.27" layer="95" font="vector" rot="MR0" xref="yes"/>
 <pinref part="R15" gate="G$1" pin="2"/>
 <wire x1="218.44" y1="43.18" x2="218.44" y2="45.72" width="0.1524" layer="91"/>
+<wire x1="218.44" y1="45.72" x2="215.9" y2="45.72" width="0.1524" layer="91"/>
 </segment>
 <segment>
 <pinref part="S2" gate="G$1" pin="2"/>
