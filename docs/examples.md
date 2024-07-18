@@ -1,8 +1,7 @@
-<!-- This section covers relevant examples included in the Arduino Library (if applicable) -->
 
-## Example # - <Example Name>
+The development environments outlined in the previous section include a host of built-in examples to get started working with the Pro Micro - RP2350. As of release, there is no PSRAM example so in this section we'll outline what users need to add to their code to use the PSRAM on the Pro Micro.
 
-<!-- This generates a code snipped tied to the live repo and automatically updates. Make sure to link the raw file for the example. Open the raw file by navigating to the example file in GitHub and clicking the "Raw" button. Generic example listed below: -->
+## PSRAM Example
 
 ??? "Example 1 Arduino Code"
 	```
