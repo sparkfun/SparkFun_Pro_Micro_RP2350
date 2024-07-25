@@ -9,6 +9,5 @@ For more resources related to the SparkFun Pro Micro RP2350, check out the links
 * [Board Dimensions](./board_files/dimensions.pdf) (PDF)
 * [Graphical Datasheet](./board_files/graphical_datasheet.pdf) (PDF)
 * [SparkFun Pro Micro RP2350 Datasheet](./component_documentation/SparkFun Pro Micro RP2350.pdf) (PDF)
-* [SparkFun Pro Micro RP2350 Arduino Library](https://github.com/sparkfun/<Arduino Library Name>) *(if applicable)*
 * [Hardware GitHub Respository](https://github.com/sparkfun/SparkFun_Pro_Micro_RP2350)
 * [SFE Product Showcase](<Video Webpage>)

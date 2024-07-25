@@ -2,9 +2,9 @@
 icon: material/tools
 ---
 
-<!-- This section covers any assembly steps needed to complete the guide. Can be very simple but should include a simple assembly (Qwiic, USB, etc.) and a Soldered Assmebly section link to the PTH Soldering Tutorial-->
+## Basic Assembly
 
-## Qwiic Assembly
+Getting started with the Pro Micro - RP2350 is as easy as plugging it in over USB. The board ships with simple code that cycles the WS2812 RGB LED through a rainbow so on initial power up, you should see that display.
 
 ## Soldered Assembly
 
@@ -27,4 +27,4 @@ icon: material/tools
 	</p>
 
 
-## Battery/Power Assembly
+## Camera Example Assembly
