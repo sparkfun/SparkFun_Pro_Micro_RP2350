@@ -1,0 +1,6 @@
+[submodule "Examples/Arducam_Demo/sfe_pico_alloc/tlsf"]
+	path = Examples/Arducam_Demo/sfe_pico_alloc/tlsf
+	url = https://github.com/espressif/tlsf
+[submodule "Examples/Arducam_Demo/PICO_SPI_CAM"]
+	path = Examples/Arducam_Demo/PICO_SPI_CAM
+	url = https://github.com/ArduCAM/PICO_SPI_CAM
