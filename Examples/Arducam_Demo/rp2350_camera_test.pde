@@ -7,8 +7,9 @@ String comPort = "COM3";
 Serial port;
 String buff = "";
 
-// Whether new data is available from the serial port
-boolean newData = false;
+// Whether an image is being sent, or has been sent
+boolean imageIncoming = false;
+boolean imageReceived = false;
 
 // Time and number of bytes in serial port buffer since last update
 int millisLast = 0;
@@ -26,6 +27,9 @@ int lastPrintTime = 0;
 // Resolution of image, defaults to max
 int nRows = 1280;
 int nCols = 960;
+
+// Whether we've started
+boolean started = false;
 
 // Setup function
 void setup()
@@ -53,17 +57,17 @@ void draw()
   // Check to see if the user has provided any keyboard input
   checkUserInput();
   
-  // Display new frame if we have image data
-  displayFrame();
+  // Display new image if it's been sent
+  displayImage();
 }
 
-void displayFrame()
+void displayImage()
 {
-  // Check to see if data is available
-  if(newData)
+  // Check to see if image data is available
+  if(imageReceived)
   {
     // Reset flag
-    newData = false;
+    imageReceived = false;
     
     // Put pixel data into image
     for(int i = 0; i < nRows * nCols && i < nRows*nCols; i++)
@@ -82,52 +86,55 @@ void displayFrame()
 
 void checkPortInput()
 {
-  // Check to see if anything is available on the serial port
-  if(port.available() > 0)
+  // Are we waiting for an image to be sent
+  if(imageIncoming == false)
   {
-    // Check to see if any new data has arrived
-    if(port.available() > lastCount)
+    // Not waiting for an image, so try to read the next message
+    String message = port.readStringUntil('\n');
+    
+    // Was a message available?
+    if(message != null)
     {
-      // New data has arrived, update counter and timer
-      lastCount = port.available();
-      millisLast = millis();
-    }
-    else
-    {
-      // No new data yet, but we'll wait a bit to see if anything new comes in
-      if(millis() > millisLast + 20)
+      if(started)
       {
-        // It's been a while since we've received any new data, so the message has probably finished sending
-        
-        
-        // Reset the counter
-        lastCount = 0;
-        
         // Print the amount of time since the last message
         print("\t\tDetla time (ms): ");
         println(millis() - lastPrintTime);
         lastPrintTime = millis();
-        
-        // Does this look like image data?
-        if(port.available() < 1000)
-        {
-          // Looks like a message, just print it
-          print(port.readString());
-        }
-        else
-        {
-          // Looks like image data!
-          println("Image received!");
-          println();
-          println();
-          
-          // Read data into buffer
-          port.readBytes(data);
-          
-          // Set flag to display it later
-          newData = true;
-        }
       }
+      
+      // Message received! Print it
+      print(message);
+      
+      // Was the message informing us of a new image incoming?
+      if(message.contains("Sending"))
+      {
+        // New image incoming!
+        imageIncoming = true;
+      }
+    }
+  }
+  else
+  {
+    // Has the full image been sent yet?
+    if(port.available() >= nRows * nCols)
+    {
+      // Full image sent! Read it into the buffer
+      data = port.readBytes(nRows * nCols);
+      
+      // Clear flag to indicate we're no longer expecting image data
+      imageIncoming = false;
+      
+      // Set flag to display the image
+      imageReceived = true;
+      
+      // Print the amount of time since the last message
+      print("\t\tDetla time (ms): ");
+      println(millis() - lastPrintTime);
+      lastPrintTime = millis();
+      println("Image received!");
+      println();
+      println();
     }
   }
 }
@@ -135,7 +142,7 @@ void checkPortInput()
 void checkUserInput()
 {
   // Check to see if a key is currently being pressed
-  if(keyPressed)
+  if(keyPressed && started == false)
   {
     // Check to see if a valid key is being pressed
     if(key >= '1' && key <= '3')
@@ -164,5 +171,8 @@ void checkUserInput()
     // Create image and data buffer of appropriate size
     img = new PImage(nCols, nRows);      
     data = new byte[nRows * nCols];
+    
+    // Set flag to know that we've started
+    started = true;
   }
 }

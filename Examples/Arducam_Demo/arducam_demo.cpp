@@ -53,7 +53,7 @@ void SerialUsb(uint8_t* buf, uint32_t length);
 bool selectResolution();
 void beginCamera(const sensor_reg* resolution);
 void triggerCamera();
-uint32_t readCameraImage(ArduCAM myCAM, uint8_t* buffer);
+void readCameraImage(ArduCAM myCAM, uint8_t* buffer, uint32_t length);
 
 // Main program entry point
 int main() 
@@ -101,14 +101,14 @@ int main()
 
     // Read image from camera into image buffer
     printf("Reading\n");
-    uint32_t length = readCameraImage(myCAM, imageBuf);
+    readCameraImage(myCAM, imageBuf, nRows * nCols);
     
     // Check whether image processing has been requested by user
     if(gpio_get(imageProcessPin))
     {
       // Run simple thresholding algorithm
       printf("Processing\n");
-      for(int i = 0; i < length; i++)
+      for(int i = 0; i < nRows * nCols; i++)
       {
         imageBuf[i] = imageBuf[i] < 127 ? 0 : 255;
       }
@@ -118,28 +118,24 @@ int main()
     // and fwrite in this example. Need to send it in chunks, otherwise the
     // transmission can get desynced for some reason
     printf("Sending\n");
-    sleep_ms(100); // Synchronization gap
     int n = 512;
-    for(int i = 0; i < length/n; i++)
+    for(int i = 0; i < (nRows * nCols) / n; i++)
     {
       SerialUsb(imageBuf + i*n, n);
     }
-    sleep_ms(100); // Synchronization gap
+
+    // Ensure everything finishes sending
+    sleep_ms(10);
   }
 }
 
-uint32_t readCameraImage(ArduCAM myCAM, uint8_t* buffer)
+void readCameraImage(ArduCAM myCAM, uint8_t* buffer, uint32_t length)
 {
-  // Get length of data in camera
-  int length = myCAM.read_fifo_length();
-
   // Read raw image data
   myCAM.CS_LOW();
   myCAM.set_fifo_burst();
   spi_read_blocking(SPI_PORT, BURST_FIFO_READ, buffer, length);
   myCAM.CS_HIGH();
-  
-  return length;
 }
 
 void triggerCamera()
