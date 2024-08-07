@@ -253,10 +253,16 @@ nav:
   - Hookup Guide:
     - Introduction: introduction.md
     - Hardware Overview: hardware_overview.md
-    - Hardware Assembly: hardware_assembly.md
-    - RP2350 Software Setup:
-      - Software Setup: software_setup.md
-      - Examples: examples.md
+    - Hardware Assembly: 
+      - Basic Assembly: basic_assembly.md
+      - Arducam Demo Assembly: camera_assembly.md
+    - Software Setup:
+      - UF2 Bootloader: uf2.md
+      - Pico SDK: picoSDK_setup.md
+      - MicroPython: micropython_setup.md
+    - Examples:
+      - Arducam Demo: camera_demo.md
+      - MicroPython Examples: micropython_examples.md
   - Resources: resources.md
   - Support:
     - Troubleshooting: troubleshooting.md

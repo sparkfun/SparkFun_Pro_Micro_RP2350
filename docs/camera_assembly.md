@@ -1,24 +1,11 @@
----
-icon: material/tools
----
 
-## Basic Assembly
 
-Getting started with the Pro Micro - RP2350 is as easy as plugging it in over USB. The board ships with simple code that cycles the WS2812 RGB LED through a rainbow so on initial power up you should see that cycle.
 
-<figure markdown>
-[![Simple USB-C assembly](./assets/img/Pro_Micro_USB_Assembly.jpg){ width="400"}](./assets/img/Pro_Micro_USB_Assembly.jpg "Click to enlarge")
-</figure>
 
-From here, you can quickly get started programming the board. If you'd like to quickly get started with a variety of I<sup>2</sup>C devices, SparkFun carries a variety of Qwiic boards with MicroPython support such as the [Optical Odometry Sensor]() as shown in the assembly photo below:
+!!! attention "Important!"
+    This is an advanced example that assumes users are familiar with using the [Pico SDK](https://www.raspberrypi.com/documentation/pico-sdk/) to build and run projects. If you have not previously used the Pico SDK we strongly encourage going through Raspberry Pi's tutorials on getting started with it before continuing with this example.
 
-<figure markdown>
-[![Qwiic assembly with the Optical Odometry sensor](./assets/img/Pro_Micro_USB_Qwiic_Assembly.jpg){ width="400"}](./assets/img/Pro_Micro_USB_Qwiic_Assembly.jpg)
-</figure>
-
-## Camera Example Assembly
-
-If you'd like to follow along with the Camera Example in this guide, you'll need to connect the Arducam M5 camera module to the Pro Micro over both SPI and I<sup>2</sup>C as well as connections for input voltage and ground. We recommend soldering male headers to the Pro Micro as the photo below shows and then plugging it into a breadboard for easy prototyping.
+If you'd like to follow along with the Arducam PRSAM Demo in this guide, you'll need to connect the Arducam M5 camera module to the Pro Micro over both SPI and I<sup>2</sup>C as well as connections for input voltage and ground. We recommend soldering male headers to the Pro Micro as the photo below shows and then plugging it into a breadboard for easy prototyping.
 
 <figure markdown>
 [![Male headers soldered to the Pro Micro.](./assets/img/Pro_Micro_Headers.jpg){ width="400"}](./assets/img/Pro_Micro_Headers.jpg "Click to enlarge")
@@ -54,11 +41,11 @@ Next, connect the Arducam wire harness to the camera assembly if you have not al
         <td>CS</td>
     </tr>
     <tr>
-        <td>4</td>
+        <td>3</td>
         <td>MOSI/COPI</td>
     </tr>
     <tr>
-        <td>3</td>
+        <td>4</td>
         <td>MISO/CIPO</td>
     </tr>
     <tr>
@@ -83,12 +70,10 @@ Next, connect the Arducam wire harness to the camera assembly if you have not al
     </tr>
 </table> 
 
-??? note "Pull-Down Jumper"
-    Not listed in the table above is the pull-down jumper between A3 and Ground. This jumper switches the example between "Standard" and "High Contrast" modes.
+Finally, you'll want to connect a jumper wire between <b>A3</b> and <b>GND</b>. The code refers to the state of A3/GPIO29 (called 29 in the code) to run the image processing algorithm. The code sets A3/GPIO29 as an input with an internal pull-up resistor enabled. When the pin is pulled LOW through the jumper wire there is no image processing and the image should appear as a normal greyscale. When the jumper is removed, the code enables the processing algorithm to apply image thresholding. 
 
 With the wiring completed, it should look similar to the photo below
 
 <figure markdown>
 [![Close up shot of completed camera wiring](./assets/img/Pro_Micro_Camera_Wiring.jpg){ width="400"}](./assets/img/Pro_Micro_Camera_Wiring.jpg "Click to enlarge")
 </figure>
-

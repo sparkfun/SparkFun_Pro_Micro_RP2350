@@ -2,12 +2,6 @@
 icon: material/book-open-page-variant
 ---
 
-# Hookup Guide
-
-
-## Introduction
-<!-- Single Product Card -->
-
 <div class="grid cards desc" markdown>
 
 -    <a href="https://www.sparkfun.com/products/24870">
@@ -27,6 +21,8 @@ icon: material/book-open-page-variant
     </center>
 
 -    The SparkFun Pro Micro - RP2350 provides a powerful development platform in SparkFun's compact Pro Micro form factor built around the RP2350 from the Raspberry Pi Foundation. This board uses the updated Pro Micro form factor and includes a USB-C connector, Qwiic connector, WS2812B addressable RGB LED, Boot and Reset buttons, resettable PTC fuse as well as PTH and castellated solder pads. This board also includes external memory for the RP2350 with 16MB Flash and 8MB PSRAM both tied to the RP2350's QSPI controller.
+
+    The RP3250 is a unique dual-core microcontroller with two ARM<sup>&reg;</sup> Cortex<sup>&reg;</sup> M33 processors and two Hazard3 RISC-V processors, all running at up to 150 MHz! Now, this doesn't mean the RP2350 is a quad-core microcontroller. Instead, users can select which two processors to run on boot instead. You can run two processors of the same type or one of each. The RP2350 also features 520kB SRAM in ten banks, a host of peripherals including two UARTs, two SPI and two I<sup>2</sup>C controllers, and a USB 1.1 controller for host and device support.
 
     <center>
     [Purchase from SparkFun :fontawesome-solid-cart-plus:{ .heart }](https://www.sparkfun.com/products/24870){ .md-button .md-button--primary }

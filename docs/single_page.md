@@ -12,18 +12,34 @@ icon: fontawesome/solid/scroll
 --8<-- "./docs/hardware_overview.md:5"
 
 # Hardware Assembly
---8<-- "./docs/hardware_assembly.md:5"
 
-# SparkFun Pro Micro RP2350 Arduino Library
+## Basic Assembly
+--8<-- "./docs/basic_assembly.md:5"
 
-## Software Setup
---8<-- "./docs/software_setup.md:5"
+## Arducam Demo Assembly
+--8<-- "./docs/camera_assembly.md:5"
 
-## Arduino Examples
---8<-- "./docs/examples.md"
+# Software Setup
 
-# Troubleshooting Tips
---8<-- "./docs/troubleshooting_tips.md:5"
+## UF2 Bootloader
+--8<-- "./docs/uf2.md:5"
+
+## Pico SDK
+--8<-- "./docs/picoSDK_setup.md:5"
+
+## MicroPython
+--8<-- "./docs/micropython_setup.md:5"
+
+# Examples
+
+## Arducam Demo
+--8<-- "./docs/camera_demo.md:5"
+
+## MicroPython Examples
+--8<-- "./docs/micropython_examples.md:5"
+
+# Troubleshooting
+--8<-- "./docs/troubleshooting.md:5"
 
 # Resources:
 --8<-- "./docs/resources.md"

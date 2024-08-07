@@ -12,9 +12,9 @@ The RP2350 from Raspberry Pi packs a whole lot of computing punch in a tiny pack
 [![Photo highlighting RP2350.](./assets/img/Pro_Micro_RP2350-RP2350.jpg){ width="400"}](./assets/img/Pro_Micro_RP2350-RP2350.jpg "Click to enlarge")
 </figure>
 
-This internal configuration allows users to customize the chip to their preferred architecture or to use one of each! The RP2350 includes 520kB of on-chip SRAM in ten independent banks and 8kB of one-time-programmable (OTP) storage. It also has an impressive set of security features including optional boot signing with protected OTP storage for the boot decryption key, global bus filtering (based on either Arm or RISC-V security and privilege levels) and more.
+This internal configuration allows users to customize the chip to their preferred architecture or to use one of each! The RP2350 includes 520kB of on-chip SRAM in ten independent banks and 8kB of one-time-programmable (OTP) storage. It also has an impressive set of security features including optional boot signing with protected OTP storage for the boot decryption key, global bus filtering (based on either Arm or RISC-V security and privilege levels) and more. For a complete overview of the RP2350, refer to the [datasheet]().
 
-The Pro Micro - RP2350 uses the "A" version of the microcontroller which has 30 5V-tolerant GPIO with 4 analog inputs and also includes the following peripheral options:
+The Pro Micro - RP2350 uses the "A" version of the microcontroller which has 30 3.3V-tolerant GPIO with 4 analog inputs and also includes the following peripheral options:
 
 * 2x UART
 * 2x SPI

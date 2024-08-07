@@ -4,4 +4,4 @@
     <center>
     [SparkFun Technical Assistance Page](https://www.sparkfun.com/technical_assistance){ .md-button .md-button--primary }
     </center>
-    <p>If you can't find what you need there, you'll need a <a href="https://forum.sparkfun.com/ucp.php?mode=register">Forum Account</a> to search product forums and post questions.<p>
+    <p>If you can't find what you need there, head over to the <a href="https://community.sparkfun.com/">SparkFun Support Forum</a> to create an account, search product forums, and post questions.<p>
