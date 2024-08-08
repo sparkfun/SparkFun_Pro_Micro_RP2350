@@ -7,6 +7,10 @@
 
 The Arducam PSRAM Example is a modified version of [Arducam's Videostreaming example](https://github.com/ArduCAM/PICO_SPI_CAM/tree/master/C/Examples/Arducam_MINI_5MP_Plus_Videostreaming) that uses the Arducam to take still images and send them to the RP2350 and then process and transmit the images over USB to be displayed using a [Processing](https://processing.org/) sketch. The primary goal of this example is to demonstrate how to set up and use PSRAM on the Pro Micro - RP2350 using the Pico SDK and the cool images are a neat bonus!
 
+<figure markdown>
+[![Arducam demo hardware assembly.](./assets/img/Pro_Micro_Camera_Assembly.jpg){ width="400"}](./assets/img/Pro_Micro_Camera_Assembly.jpg "Click to enlarge")
+</figure>
+
 ## Software Requirements
 
 Along with the Pico SDK, you'll need to install the following items for this demo to run properly.

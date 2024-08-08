@@ -12,7 +12,7 @@ The RP2350 from Raspberry Pi packs a whole lot of computing punch in a tiny pack
 [![Photo highlighting RP2350.](./assets/img/Pro_Micro_RP2350-RP2350.jpg){ width="400"}](./assets/img/Pro_Micro_RP2350-RP2350.jpg "Click to enlarge")
 </figure>
 
-This internal configuration allows users to customize the chip to their preferred architecture or to use one of each! The RP2350 includes 520kB of on-chip SRAM in ten independent banks and 8kB of one-time-programmable (OTP) storage. It also has an impressive set of security features including optional boot signing with protected OTP storage for the boot decryption key, global bus filtering (based on either Arm or RISC-V security and privilege levels) and more. For a complete overview of the RP2350, refer to the [datasheet]().
+This internal configuration allows users to customize the chip to their preferred architecture or to use one of each! The RP2350 includes 520kB of on-chip SRAM in ten independent banks and 8kB of one-time-programmable (OTP) storage. It also has an impressive set of security features including optional boot signing with protected OTP storage for the boot decryption key, global bus filtering (based on either Arm or RISC-V security and privilege levels) and more. For a complete overview of the RP2350, refer to the [datasheet](./assets/component_documentation/rp2350-datasheet.pdf).
 
 The Pro Micro - RP2350 uses the "A" version of the microcontroller which has 30 3.3V-tolerant GPIO with 4 analog inputs and also includes the following peripheral options:
 
@@ -36,22 +36,24 @@ The RP2350 uses five separate power supplies though this board (and most applica
 The W25Q128 Flash IC adds 16MB of extra programming space on the Pro Micro. This connects to the RP2350 over QSPI. 
 
 <figure markdown>
-[![Photo highlighting Flash IC.](./assets/img/){ width="400"}](./assets/img/ "Click to enlarge")
+[![Photo highlighting Flash IC.](./assets/img/Pro_Micro_RP2350-Flash_IC.jpg){ width="400"}](./assets/img/Pro_Micro_RP2350-Flash_IC.jpg "Click to enlarge")
 </figure>
 
 ### PSRAM
 
-The Pro Micro also includes an 8MB PSRAM IC for dynamic storage. This also connects to the RP2350 over QSPI. PSRAM support is built in to the SparkFun MicroPython fork but is not natively supported in the Pico SDK as of release. Refer to the Camera Example section of this guide for information on how to enable and set up PSRAM using the Pico SDK.
+The Pro Micro also includes an 8MB PSRAM IC for dynamic storage. This also connects to the RP2350 over QSPI. PSRAM support is included in the SparkFun MicroPython "early release" firmware found later in this guide and on the product page, but is not natively supported in the Pico SDK as of release. Refer to the Arducam Demo section of this guide for information on how to enable and set up PSRAM using the Pico SDK.
 
 <figure markdown>
 [![Photo highlighting PSRAM IC.](./assets/img/Pro_Micro_RP2350-IC_Back.jpg){ width="400"}](./assets/img/Pro_Micro_RP2350-IC_Back.jpg "Click to enlarge")
 </figure>
 
+For a complete overview of the PSRAM IC, refer to the [datasheet](./assets/component_documentation/APS6404L_3SQR_Datasheet.pdf).
+
 ## Connectors & Pinout
 
 ### USB-C Connector
 
-The USB-C connector on the board acts as the primary power and programming interface. It also has surface mount solder pads for connections to the USB data lines and USB voltage. The USB-C voltage is regulated down to <b>3.3V</b> which powers all components on the board. The board also has a <b>RAW</b> PTH pin to provide a dedicated supply voltage. If using this pin, the maximum voltage allowed is <b>5.3V</b> as RAW connects directly to the WS2812.
+The USB-C connector on the board acts as the primary power and programming interface. It also has surface mount solder pads on the bottom of the board for connections to the USB data lines and USB voltage. The USB-C voltage is regulated down to <b>3.3V</b> which powers all components on the board. The board also has a <b>RAW</b> PTH pin to provide a dedicated supply voltage. If using this pin, the maximum voltage allowed is <b>5.3V</b> as RAW connects directly to the WS2812.
 
 <figure markdown>
 [![Photo highlighting USB-C connector.](./assets/img/Pro_Micro_RP2350-USB.jpg){ width="400"}](./assets/img/Pro_Micro_RP2350-USB.jpg "Click to enlarge")

@@ -1,13 +1,14 @@
-# Resources
-<!-- This section should include all the relevant documentation and product files (Eagle files, schematic, datasheet(s), landing pages, etc. and any relevant tutorials to go beyond the Hookup Guide.) -->
+
+
+
 
 For more resources related to the SparkFun Pro Micro RP2350, check out the links listed here: 
 
-* [Product Page](https://www.sparkfun.com/products/<SKU Number>)
-* [Schematic](./board_files/schematic.pdf) (PDF)
-* [Eagle Files](./board_files/eagle_files.zip) (ZIP)
-* [Board Dimensions](./board_files/dimensions.pdf) (PDF)
-* [Graphical Datasheet](./board_files/graphical_datasheet.pdf) (PDF)
-* [SparkFun Pro Micro RP2350 Datasheet](./component_documentation/SparkFun Pro Micro RP2350.pdf) (PDF)
+* [Product Page](https://www.sparkfun.com/products/28470)
+* [Schematic](./assets/board_files/SparkFun_ProMicro_RP2350.pdf) (PDF)
+* [Eagle Files](./assets/board_files/SparkFun_ProMicro_RP2350.zip) (ZIP)
+* [Board Dimensions](./assets/board_files/SparkFun_ProMicro_RP2350-Dimensions.png) (PDF)
+* [RP2350 Datasheet](./assets/component_documentation/rp2350-datasheet.pdf) (PDF)
+* [APS6404L PRSAM Datasheet](./assets/component_documentation/APS6404L_3SQR_Datasheet.pdf) (PDF)
 * [Hardware GitHub Respository](https://github.com/sparkfun/SparkFun_Pro_Micro_RP2350)
-* [SFE Product Showcase](<Video Webpage>)
+* [SFE Product Showcase](https://www.youtube.com/watch?v=UnIa2jbEHRk)
