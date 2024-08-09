@@ -1,6 +1,6 @@
----
-icon simple/micropython
----
+
+
+
 
 ## Verify MicroPython Firmware & Hardware
 
