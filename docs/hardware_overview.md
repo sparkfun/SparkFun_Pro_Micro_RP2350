@@ -22,10 +22,10 @@ The Pro Micro - RP2350 uses the "A" version of the microcontroller which has 30 
 * 24 PWM
 * USB 1.1 Controller
 * 12 PIO State Machines
-* 1x High-Speed Transmit (HSTX) Peripheral for DVI/DSI support
+* 1x High-Speed Transmit (HSTX) Peripheral for DVI/DSI support (not available on Pro Micro)
 
-!!! note
-	Due to size constraints on the Pro Micro footprint, only 18 GPIO are broken out, including all four analog inputs.
+!!! note "Pro Micro Footprint Constraints"
+	Due to size constraints on the Pro Micro footprint, only 18 GPIO are broken out, including all four analog inputs. Unfortunately, this means HSTX is <b>not</b> supported on the Pro Micro - RP2350.
 
 The RP2350 uses five separate power supplies though this board (and most applications) combines several of them into a single regulated 3.3V supply voltage provided either over the USB-C connector or to the RAW pin. If using the RAW pin, max input voltage is <b>5.3V</b> as RAW connects directly to the WS2812 LED. 
 
