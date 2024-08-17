@@ -19,6 +19,7 @@ Repository Contents
 Documentation
 --------------
 * **[Hookup Guide](https://sparkfun.github.io/SparkFun_Pro_Micro_RP2350)** - Basic hookup guide for the Pro Micro - RP2350.
+* [PSRAM Library and Examples](https://github.com/sparkfun/sparkfun-pico) - A cmake library and examples to use the on-board PSRAM when developing in the Raspberry Pi [pico-sdk](https://github.com/raspberrypi/pico-sdk).
 
 Product Versions
 ----------------
