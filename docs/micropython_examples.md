@@ -32,8 +32,8 @@ Finally, we'll make sure we can properly control the WS2812 LED on the Pro Micro
 import machine, neopixel
 pin = machine.Pin(25, machine.Pin.OUT)
 led = neopixel.NeoPixel(pin, 1)
-n[0] = (255, 0, 0)
-n.write()
+led[0] = (255, 0, 0)
+led.write()
 ```
 
 Try playing around with other values between 0 and 255 for the three colors (R, G, B) and then writing the changes to switch the LED's displayed color.
