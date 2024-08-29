@@ -30,6 +30,9 @@ icon: fontawesome/solid/scroll
 ## MicroPython
 --8<-- "./docs/micropython_setup.md:5"
 
+## Arduino
+--8<-- "./docs/arduino_setup.md:5"
+
 # Examples
 
 ## Arducam Demo
