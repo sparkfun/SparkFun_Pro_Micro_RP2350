@@ -12,10 +12,10 @@ MicroPython is an application of the Python 3 language that runs on microcontrol
 
 ## UF2 Firmware
 
-As of this writing, we're waiting on the next release of MicroPython to include UF2 files for the Pro Micro - RP2350 so to get users started before then, we have a Beta release of MicroPython firmware available [here](https://github.com/sparkfun/micropython-rp2350/releases). You can also go directly to the Beta 01 release by clicking the button below:
+As of this writing, we're waiting on the next release of MicroPython to include UF2 files for the Pro Micro - RP2350 so to get users started before then, we have Beta releases of MicroPython firmware available [here](https://github.com/sparkfun/micropython/releases) or by clicking the button below:
 
 <center>
-    [SparkFun MicroPython Beta 04](https://github.com/sparkfun/micropython/releases/tag/v1.25.0-preview-beta04){ .md-button .md-button--primary}
+    [SparkFun MicroPython Beta Releases](https://github.com/sparkfun/micropython/releases){ .md-button .md-button--primary}
 </center>
 
-Once downloaded, put the Pro Micro - RP2350 into UF2 bootloader mode and open the location the board appeared as a USB storage device (it should appear as "RP2350"). Next, simply drag and drop the UF2 file into the RP2350 folder and the board should reboot. Next, open up your preferred MicroPython IDE (or command line interface) and you can start interacting with your Pro Micro. Read on to the MicroPython examples section for a few quick examples to make sure everything is working properly.
+Download the latest release then put the Pro Micro - RP2350 into UF2 bootloader mode and open the location the board appeared as a USB storage device (it should appear as "RP2350"). Next, drag and drop the UF2 file into the RP2350 folder and the board should reboot. Next, open up your preferred MicroPython IDE (or command line interface) and you can start interacting with your Pro Micro. Read on to the MicroPython examples section for a few quick examples to make sure everything is working properly.
