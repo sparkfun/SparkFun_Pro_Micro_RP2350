@@ -281,6 +281,7 @@ nav:
       - UF2 Bootloader: uf2.md
       - Pico SDK: picoSDK_setup.md
       - MicroPython: micropython_setup.md
+      - CircuitPython: circuitpython_setup.md
       - Arduino: arduino_setup.md
     - Examples:
       - Arducam Demo: camera_demo.md
